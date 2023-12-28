@@ -1,6 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
+import '../styles/index.ecad4d73.css'
+import '../styles/index.18257fd8.css'
+import '../styles/index.page.274d5a15.css'
+import '../styles/hooks.331a9899.css'
+import '../styles/index.74861cf6.css'
+import '../styles/AwardBall.9c1b7ab7.css'
+import '../styles/app.45cfe5da.css'
+import '../styles/_default.page.client.694535e5.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className='darken'>{children}</body>
     </html>
   )
 }

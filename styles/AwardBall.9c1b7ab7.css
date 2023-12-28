@@ -1,0 +1,82 @@
+.vrfk49e {
+    --19f0qon: url(/assets/ball_bg_white.6270a445.png);
+    --1bhgqkq: url(/assets/ball_white.d3c1de7f.png);
+    width: 14.6875rem;
+    height: 2.6875rem;
+    background-image: var(--19f0qon);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 .25rem;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.darken .vrfk49e {
+    --19f0qon: url(/assets/ball_bg.10eb599f.png);
+    --1bhgqkq: url(/assets/ball.37ffd70a.png)
+}
+
+.vrfk49e .bonus {
+    position: absolute;
+    width: 1.625rem;
+    right: -.125rem;
+    top: -.125rem
+}
+
+.vrfk49e .ball {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 .25rem;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: .75rem;
+    background-image: var(--1bhgqkq);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #000;
+    opacity: .3;
+    font-weight: 800;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none
+}
+
+.vrfk49e .ball.active {
+    opacity: 1
+}
+
+.vrfk49e .jackpot-ball {
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    margin-left: .875rem;
+    background-image: url(/assets/jackpot_ball.2c4d01a5.png)
+}
+
+@media screen and (max-width:621px) {
+    .vrfk49e {
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
+        transform: scale(.8)
+    }
+}
