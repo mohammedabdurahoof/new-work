@@ -5,7 +5,7 @@ function Recommended() {
     <div className="ggjjku9 s1kcy63f recommend-list">
     <div className="grid-tit"><span className="txt">Recommended Games</span></div>
     <div className="grid-nav"><a href="/gamelist/home-recommend" keep-scroll-position="true" className="num"><span>View
-                all</span></a><button className="ui-button button-normal slide-btn prev" disabled="">
+                all</span></a><button className="ui-button button-normal slide-btn prev">
             <div className="button-inner"><svg className="s1ff97qc icon">
                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                 </svg></div>
@@ -14,7 +14,7 @@ function Recommended() {
                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                 </svg></div>
         </button></div>
-    <div className="s138s2zu grid-list" style={{"--grid-num": "6"}}>
+    <div className="s138s2zu grid-list">
         <div className="sfistqe grid-item"><a href="/game/fortune-gems-2-by-jili" keep-scroll-position="true"
                 className="game-img-wrap"><img
                     src="https://bc.imgix.net/game/image/7437ea9f-7518-4cdc-8653-aa4f439f43f0.png?auto=format&amp;dpr=1&amp;w=200"

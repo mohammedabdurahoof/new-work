@@ -5,7 +5,7 @@ function TopRated() {
         <div className="ggjjku9 s1kcy63f best-list">
             <div className="grid-tit"><span className="txt">Top Rated Games</span></div>
             <div className="grid-nav"><a href="/gamelist/home-best" keep-scroll-position="true" className="num"><span>View
-                all</span></a><button className="ui-button button-normal slide-btn prev" disabled="">
+                all</span></a><button className="ui-button button-normal slide-btn prev" >
                     <div className="button-inner"><svg className="s1ff97qc icon">
                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                     </svg></div>
@@ -14,7 +14,7 @@ function TopRated() {
                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                     </svg></div>
                 </button></div>
-            <div className="s138s2zu grid-list" style={{"--grid-num": "6"}}>
+            <div className="s138s2zu grid-list">
                 <div className="sfistqe grid-item"><a href="/game/limbo" keep-scroll-position="true" className="game-img-wrap"><img
                     src="https://bc.imgix.net/game/image/ff0b0511-1f48-43d1-8dd3-294bb6437b4b.png?auto=format&amp;dpr=1&amp;w=200"
                     className="game-img" alt="" /></a>
