@@ -3,7 +3,7 @@ import SideBar from "./SideBar";
 import Footer from "./Footer";
 import TopButton from "./TopButton";
 import Chat from "./Chat";
-import Banner from "./banner";
+import Banner from "./Banner";
 import Cards from "./Cards";
 import Recent from "./Recent";
 import TopRated from "./TopRated";
