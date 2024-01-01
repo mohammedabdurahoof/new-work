@@ -84,12 +84,7 @@ function Footer() {
                                     <p>Online slots are the absolute favorite among the players on the market, and let us just
                                         tell you a bit of what you can expect from an online slot machine on a crypto gambling
                                         site.</p>
-                                    <p>Any game on a slot machine will be completely random, just like tossing coins. The
-                                        computer program that controls the game selects a random symbol on the first row, then
-                                        the second. Payback is the percentage of money paid back to the player on average. Each
-                                        spin on the game has the same chance of winning or losing as the previous game; it has
-                                        nothing to say how long since the last jackpot was paid out or whether the slot machine
-                                        is "hot" or "cold."</p>
+                                    <p>{"Any game on a slot machine will be completely random, just like tossing coins. The computer program that controls the game selects a random symbol on the first row, then the second. Payback is the percentage of money paid back to the player on average. Each spin on the game has the same chance of winning or losing as the previous game; it has nothing to say how long since the last jackpot was paid out or whether the slot machine is 'hot' or 'cold.'"} </p>
                                     <p>{"In the 80s, slot machines became very popular and even surpassed table games such as craps and blackjack. Slot machines and video poker now make up more than 70 percent of the casinos' profits. Now that we have gone online, it continues to profit from online crypto and bitcoin casinos and the casinos that don't accept the crypto methods. This is for a simple reason: big jackpots. When slot machines were digitized, it became possible to make the jackpot win less frequent, which also meant that the jackpot on online slot machines became larger when you first won it. And players love big jackpots! If you play for 5 dollars on a blackjack table, you can win a maximum of 7.5 dollars, but if you play with 3 dollars on a slot machine, you can win several thousand or millions of dollars in one go, but this is only if you are lucky. As we said before, you have to always look at casino games as entertainment and not a quick payday."} </p>
                                     <p>But despite their popularity, there are three major problems with playing slot machines
                                         versus table games. First of all, casinos are not always open about the odds they place
@@ -405,7 +400,7 @@ function Footer() {
                         </div>
                         <div className="copyright-top">
                             <div className="copyright-info">
-                                <p className="ttu">©2023 BC.GAME ALL RIGHTS RESERVED</p>
+                                <p className="ttu">{"©2023 BC.GAME ALL RIGHTS RESERVED"}</p>
                                 <p className="btc-info">1BTC=₹3,540,043.66</p>
                             </div>
                             <div className="to-top"><svg className="s1ff97qc icon">
