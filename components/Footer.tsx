@@ -394,9 +394,7 @@ function Footer() {
                     <div className="right-text">
                         <div className="licensed-t"><a href="/license.pdf" target="_blank" className="license"><img alt="license"
                             src="/images/license.d1460593.png" /></a>
-                            <p><span></span><span>BC.GAME</span><span> is operated by BlockDance B.V. (Commercial register of
-                                Curaçao no.158182, Emancipatie Boulevard Dominico F. "Don" Martina 31, Curaçao) under a
-                                sublicense CIL pursuant to Master gaming License #5536/JAZ.</span></p>
+                            <p><span></span><span>BC.GAME</span><span>{"is operated by BlockDance B.V. (Commercial register of Curaçao no.158182, Emancipatie Boulevard Dominico F. 'Don' Martina 31, Curaçao) under a sublicense CIL pursuant to Master gaming License #5536/JAZ."} </span></p>
                         </div>
                         <div className="copyright-top">
                             <div className="copyright-info">
