@@ -15,7 +15,7 @@ export default function Home() {
           <Deposit />
           <Race />
           <Register />
-          <Recommended />
+          <Recommended title='Recommended'/>
         </div>
       </div>
       <Footer />

@@ -1,9 +1,10 @@
+import { CardProps } from '@/types'
 import React from 'react'
 
-function Recommended() {
+function Recommended({title}:CardProps) {
   return (
     <div className="ggjjku9 s1kcy63f recommend-list">
-    <div className="grid-tit"><span className="txt">Recommended Games</span></div>
+    <div className="grid-tit"><span className="txt">{title}</span></div>
     <div className="grid-nav"><a href="/gamelist/home-recommend" keep-scroll-position="true" className="num"><span>View
                 all</span></a><button className="ui-button button-normal slide-btn prev">
             <div className="button-inner"><svg className="s1ff97qc icon">

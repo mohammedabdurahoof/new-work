@@ -1,0 +1,390 @@
+.s1ys4jpg {
+    --15xysm6: #F0F1F5;
+    --18uxqd5: #fff;
+    --g52yms: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.darken .s1ys4jpg {
+    --15xysm6: rgba(0, 0, 0, .2);
+    --18uxqd5: #2D3035;
+    --g52yms: #fff
+}
+
+.s1ys4jpg .nav-item {
+    background: var(--15xysm6);
+    padding: .75rem 1.125rem;
+    border-radius: var(--border-radius);
+    margin-right: .75rem;
+    margin-top: .625rem;
+    width: auto;
+    font-weight: 400;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.s1ys4jpg .nav-item .icon {
+    margin-right: .375rem
+}
+
+.s1ys4jpg .nav-item.active {
+    background: var(--18uxqd5);
+    color: var(--g52yms);
+    font-weight: 600
+}
+
+.s1ys4jpg .nav-item.active .icon {
+    fill: var(--g52yms)
+}
+
+.s1ys4jpg .nav-item:hover {
+    background: var(--18uxqd5)
+}
+
+@media screen and (max-width:621px) {
+    .s1ys4jpg {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-scroll-snap-type: x mandatory;
+        -moz-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+        -webkit-scroll-behavior: smooth;
+        -moz-scroll-behavior: smooth;
+        -ms-scroll-behavior: smooth;
+        scroll-behavior: smooth
+    }
+    .s1ys4jpg .nav-item {
+        -webkit-scroll-snap-align: start;
+        -moz-scroll-snap-align: start;
+        -ms-scroll-snap-align: start;
+        scroll-snap-align: start
+    }
+}
+
+.ssqr6o3 {
+    --1q81als: #EAECF3;
+    --pjqr3s: #FFFFFF;
+    --1rnmoed: #EAECF3;
+    position: relative;
+    background-color: var(--1q81als);
+    padding: 1.5rem 0 0rem
+}
+
+.darken .ssqr6o3 {
+    --1q81als: #1E2024;
+    --pjqr3s: #25272C;
+    --1rnmoed: #2D3035
+}
+
+@media screen and (max-width:621px) {
+    .ssqr6o3 {
+        padding: 1.125rem 0 0rem
+    }
+    .ssqr6o3 .active-worldcup-img {
+        margin-top: .5rem;
+        margin-bottom: -1.1rem;
+        margin-left: .75rem
+    }
+    .ssqr6o3 .active-worldcup-img img {
+        height: 2.25rem;
+        width: auto
+    }
+    .ssqr6o3 .page-search-enter {
+        margin: 0 .75rem
+    }
+}
+
+@media screen and (max-width:621px) {
+    .ssqr6o3 {
+        background-color: transparent;
+        padding: 0
+    }
+}
+
+.scgcvvk div.loading {
+    height: 10rem
+}
+
+@media screen and (max-width:621px) {
+    .scgcvvk div.loading {
+        height: 6.25rem
+    }
+}
+
+.s1kh323u {
+    --1hz36cl: #DADDE6;
+    --1gd84sm: #BEC1CC;
+    --ge4i3v: #FFFFFF;
+    --f11bso: #EAECF3;
+    width: 100%;
+    height: 2.75rem;
+    background-color: var(--ge4i3v);
+    border: 1px solid var(--f11bso);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: var(--border-radius);
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.darken .s1kh323u {
+    --1hz36cl: #25272C;
+    --1gd84sm: #656E78;
+    --ge4i3v: #1C1E22;
+    --f11bso: rgba(255, 255, 255, .1)
+}
+
+.s1kh323u .icon-wrap {
+    width: 3rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.s1kh323u .icon-wrap svg {
+    margin-left: .25rem;
+    font-size: .75rem;
+    fill: var(--1gd84sm)
+}
+
+.s1kh323u .p {
+    border: 1px solid transparent;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    line-height: 2.625rem;
+    cursor: pointer;
+    color: var(--1gd84sm)
+}
+
+.s1kh323u .anim-search-enter {
+    top: 0
+}
+
+.s1r31mst {
+    position: relative
+}
+
+@-webkit-keyframes ribbonAnimss-s1r31mst {
+    0% {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+    25% {
+        -webkit-transform: rotateX(45deg);
+        -ms-transform: rotateX(45deg);
+        transform: rotateX(45deg)
+    }
+    50% {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+    75% {
+        -webkit-transform: rotateX(-45deg);
+        -ms-transform: rotateX(-45deg);
+        transform: rotateX(-45deg)
+    }
+    to {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+}
+
+@keyframes ribbonAnimss-s1r31mst {
+    0% {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+    25% {
+        -webkit-transform: rotateX(45deg);
+        -ms-transform: rotateX(45deg);
+        transform: rotateX(45deg)
+    }
+    50% {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+    75% {
+        -webkit-transform: rotateX(-45deg);
+        -ms-transform: rotateX(-45deg);
+        transform: rotateX(-45deg)
+    }
+    to {
+        -webkit-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        transform: rotateX(0)
+    }
+}
+
+.s1r31mst .active-ribbon-img {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: -1rem
+}
+
+.s1r31mst .active-ribbon-img img {
+    width: auto;
+    height: 4.375rem;
+    -webkit-animation: ribbonAnimss-s1r31mst 8s linear infinite;
+    animation: ribbonAnimss-s1r31mst 8s linear infinite
+}
+
+.s1r31mst .loading {
+    height: 18.75rem
+}
+
+.s1r31mst button,
+.s1r31mst .labtes-bet-race div.loading {
+    height: auto
+}
+
+.s1r31mst .casino-container {
+    padding-top: 1.5rem;
+    position: relative
+}
+
+.s1r31mst .casino-container .renent-big-win {
+    margin-top: 2.75rem;
+    margin-bottom: 0
+}
+
+.s1r31mst .casino-container .renent-big-win .bigwin-title {
+    margin-top: 0
+}
+
+.s1r31mst .casino-container .active-worldcup-img {
+    font-size: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 0;
+    right: 40px
+}
+
+.s1r31mst .casino-container .active-worldcup-img img {
+    height: 3rem;
+    width: auto
+}
+
+.s1r31mst .page-search-enter {
+    margin-bottom: 1.125rem
+}
+
+.s1r31mst .casino-block,
+.s1r31mst .providers,
+.s1r31mst .casino-list {
+    margin-top: 2.75rem
+}
+
+.s1r31mst .related-games {
+    margin: 3.75rem 0
+}
+
+.s1r31mst .providers .grid-list {
+    --grid-rows: 1
+}
+
+.s1r31mst .num {
+    color: var(--primary-color);
+    padding: 0 .625rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    font-size: .875rem;
+    font-weight: 400
+}
+
+@media screen and (max-width:621px) {
+    .s1r31mst {
+        padding: 0 .5rem .5rem
+    }
+    .s1r31mst .swiper {
+        margin: 0 -.5rem 0 0
+    }
+    .s1r31mst .loading {
+        height: 12.5rem
+    }
+    .s1r31mst .labtes-bet-race .loading {
+        height: auto
+    }
+    .s1r31mst .casino-container {
+        padding: 0
+    }
+    .s1r31mst .casino-container {
+        padding-top: .625rem
+    }
+    .s1r31mst .casino-container .active-worldcup-img {
+        position: relative;
+        left: 0;
+        margin-bottom: .625rem
+    }
+    .s1r31mst .casino-container .active-worldcup-img img {
+        height: 2.25rem
+    }
+    .s1r31mst .casino-container .grid-tit {
+        font-size: 1.25rem;
+        font-weight: 700;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        padding: 0 .3125rem
+    }
+    .s1r31mst .casino-container .grid-nav {
+        top: 0
+    }
+    .s1r31mst .casino-block,
+    .s1r31mst .themes,
+    .s1r31mst .providers {
+        margin-top: 1.5rem
+    }
+    .s1r31mst .top-banner {
+        padding: 0
+    }
+    .s1r31mst .providers .grid-list {
+        --grid-rows: 2
+    }
+}

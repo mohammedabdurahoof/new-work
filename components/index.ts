@@ -11,6 +11,10 @@ import Deposit from "./Deposit";
 import Race from "./Race";
 import Register from "./Register";
 import Recommended from "./Recommended";
+import Slider from "./Slider";
+import Search from "./Search";
+import Tab from "./Tab";
+import Providers from "./Providers";
 
 export {
     Header,
@@ -26,4 +30,8 @@ export {
     Race,
     Register,
     Recommended,
+    Slider,
+    Search,
+    Tab,
+    Providers
 }
