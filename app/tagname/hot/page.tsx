@@ -18,16 +18,16 @@ function page() {
                 <svg className="s1ff97qc icon">
                   <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                 </svg>
-                <a keep-scroll-position="true" className="path active" title="Slots">Slots</a>
+                <a keep-scroll-position="true" className="path active" title="Hot Games">Hot Games</a>
               </div>
-              <div className="region-block">
+              {/* <div className="region-block">
                 <div className="ui-switch">
                   <div className="dot"></div>
                 </div>Show Blocked
-              </div>
+              </div> */}
             </div>
             <div className="filter-wrap">
-              <div className="filter-sort">
+              {/* <div className="filter-sort">
                 <div className="label">Sort by</div>
                 <div className="ui-select">
                   <div className="select-trigger">You may like<div className="arrow "><svg className="s1ff97qc icon">
@@ -35,7 +35,7 @@ function page() {
                   </svg></div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="filter-provider">
                 <div className="label">Provider</div>
                 <div className="ui-select sle65vm">

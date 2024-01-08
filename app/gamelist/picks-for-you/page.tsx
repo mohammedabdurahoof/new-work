@@ -1,4 +1,4 @@
-import { GameList, Header, SideBar } from '@/components'
+import { Chat, Footer, GameList, Header, SideBar, TopButton } from '@/components'
 import React from 'react'
 import '../../../styles/index.8c75d3e3.css'
 import '../../../styles/GameList.4fceab7d.css'
@@ -38,6 +38,9 @@ function page() {
           </div>
         </div>
       </div>
+      <Footer />
+      <Chat />
+      <TopButton />
     </div>
   )
 }
