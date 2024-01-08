@@ -1,36 +1,38 @@
-import { transform } from 'next/dist/build/swc'
+"use client"
 import React from 'react'
-import casino from '../public/images/symbol-defs.ef6a79c4.svg'
-import Image from 'next/image'
+import { usePathname } from 'next/navigation';
 
 function Header() {
+
+    const pathname = usePathname();
+
     return (
         <div className="pg3er1y" id="header">
             <div className="header-wrap">
                 <div className="header-inner page-max-width-wrap">
                     <div className="pdjiuoz left">
-                        <div className="cfzn5qq"><a href="/casino" keep-scroll-position="true" className="header-link-item casino">
+                        <div className="cfzn5qq"><a href="/casino" keep-scroll-position="true" className={`header-link-item casino ${pathname == "/casino" ? "active is-active" : ""}`}>
                             <div className="img-wrap">
                                 <svg className="s1ff97qc icon">
                                 <use xlinkHref='/images/symbol-defs.ef6a79c4.svg#icon_Casino'></use>
                             </svg>
                             </div>
                             <p>Casino</p>
-                        </a><a href="/sports" keep-scroll-position="true" className="header-link-item sports">
+                        </a><a href="/sports" keep-scroll-position="true" className={`header-link-item sports ${pathname == "/sports" ? "active is-active" : ""}`}>
                                 <div className="img-wrap">
                                     <svg className="s1ff97qc icon">
                                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Sports"></use>
                                 </svg>
                                 </div>
                                 <p>Sports</p>
-                            </a><a href="/racing" keep-scroll-position="true" className="header-link-item racing">
+                            </a><a href="/racing" keep-scroll-position="true" className={`header-link-item racing ${pathname == "/racing" ? "active is-active" : ""}`}>
                                 <div className="img-wrap">
                                     <svg className="s1ff97qc icon">
                                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Horse"></use>
                                     </svg>
                                 </div>
                                 <p>Racing</p>
-                            </a><a href="/lottery" keep-scroll-position="true" className="header-link-item lottery">
+                            </a><a href="/lottery" keep-scroll-position="true" className={`header-link-item lottery ${pathname == "/lottery" ? "active is-active" : ""}`}>
                                 <div className="img-wrap">
                                     <svg className="s1ff97qc icon">
                                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Lottery"></use>

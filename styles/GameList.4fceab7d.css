@@ -1,0 +1,320 @@
+.t146477t {
+    --kuuog9: #f5f6f6;
+    width: 19.125rem;
+    padding: .9375rem .625rem
+}
+
+.darken .t146477t {
+    --kuuog9: #1e2024
+}
+
+.t146477t .item {
+    background: var(--kuuog9);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: .3125rem;
+    padding: .3125rem;
+    border-radius: .1875rem
+}
+
+.t146477t .item .val {
+    margin-left: .3125rem;
+    text-align: right;
+    white-space: normal;
+    word-break: break-all
+}
+
+.t146477t .bot {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: .75rem;
+    margin-top: 1.25rem
+}
+
+.t146477t .bot .targe {
+    background: var(--kuuog9);
+    margin-right: .3125rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    border-radius: .125rem;
+    padding: 0 .625rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.t146477t .bot .res {
+    margin-left: auto;
+    position: relative
+}
+
+.t146477t .icon {
+    vertical-align: top
+}
+
+.s117bhl3 {
+    position: relative
+}
+
+.s117bhl3 button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.s1raq561 {
+    --1t345w1: #ffffff;
+    --9nl85: rgba(255, 255, 255, .3);
+    --q07r2w: rgba(0, 0, 0, .4);
+    --1ezqqet: #ffffff;
+    --1sc9uoe: #ccd1d8;
+    --brq0nm: #EAECF3;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--1t345w1);
+    border-radius: var(--border-radius);
+    overflow: hidden
+}
+
+.darken .s1raq561 {
+    --1t345w1: #32343B;
+    --9nl85: rgba(0, 0, 0, .3);
+    --q07r2w: rgba(0, 0, 0, .6);
+    --1ezqqet: #202226;
+    --1sc9uoe: #5e6670;
+    --brq0nm: #111415
+}
+
+.s1raq561 .corner-icon {
+    position: absolute;
+    right: .875rem;
+    top: 0;
+    z-index: 1;
+    width: 2.5rem
+}
+
+.s1raq561.disabled {
+    background-color: var(--1ezqqet)
+}
+
+.s1raq561.disabled .txt {
+    color: var(--1sc9uoe)
+}
+
+.s1raq561.disabled .icon {
+    fill: var(--1sc9uoe)
+}
+
+.s1raq561.disabled .disabled-banner-wrap {
+    position: absolute;
+    background-color: var(--9nl85);
+    inset: 0;
+    z-index: 9
+}
+
+.s1raq561.disabled .disabled-banner-wrap:hover .disabled-txt {
+    display: block
+}
+
+.s1raq561.disabled .disabled-banner-wrap .disabled-txt {
+    padding: .75rem;
+    font-size: .75rem;
+    text-align: center;
+    background-color: var(--q07r2w);
+    height: 100%;
+    display: none;
+    border-radius: var(--border-radius)
+}
+
+.s1raq561 .game-img-wrap {
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+    position: relative;
+    background-color: var(--brq0nm)
+}
+
+.s1raq561 .game-img-wrap img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius)
+}
+
+.s1raq561 .game-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.s1raq561 .bot-info {
+    padding: .625rem
+}
+
+.s1raq561 .bot-info .game-tit {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 600;
+    height: 1.25rem;
+    margin: .3125rem 0
+}
+
+.s1raq561 .bot-info .game-tit .txt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 1px;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto
+}
+
+.s1raq561 .bot-info .ui-button {
+    width: auto;
+    padding: 0 .625rem;
+    margin-top: .9375rem
+}
+
+@media screen and (max-width:621px) {
+    .s1raq561 .bot-info {
+        padding: .5rem
+    }
+
+    .s1raq561 .bot-info .game-tit {
+        margin: 0;
+        line-height: 1rem
+    }
+
+    .s1raq561 .bot-info .game-tit button {
+        display: none
+    }
+
+    .s1raq561 .bot-info .game-tit a {
+        text-align: center;
+        color: var(--title-color)
+    }
+}
+
+.s1qvj928 {
+    --1kkptji: #ffffff;
+    --9t29cw: #000000;
+    margin-top: 1.125rem
+}
+
+.darken .s1qvj928 {
+    --1kkptji: #2D3035;
+    --9t29cw: #ffffff
+}
+
+.s1qvj928 .game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.25rem .75rem
+}
+
+.s1qvj928 .game-item {
+    width: 100%
+}
+
+.s1qvj928 .show-more {
+    background: var(--1kkptji);
+    border-radius: var(--border-radius);
+    height: 44px;
+    line-height: 44px;
+    min-width: 148px;
+    width: auto;
+    margin: 0 auto;
+    font-weight: 600
+}
+
+.s1qvj928 .show-more a {
+    color: var(--9t29cw);
+    padding: 0 37px
+}
+
+@media screen and (max-width:621px) {
+    .s1qvj928 {
+        margin-top: 1.875rem
+    }
+
+    .s1qvj928 .game-list {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+    }
+}
+
+.l1d038jc {
+    --1dkhu5t: #000;
+    --l6v9sv: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 1.0625rem;
+    margin-top: 3.75rem
+}
+
+.darken .l1d038jc {
+    --1dkhu5t: #C5C5C5;
+    --l6v9sv: #31343c
+}
+
+.l1d038jc .progress {
+    width: 5rem;
+    height: .375rem;
+    border-radius: var(--border-radius);
+    background-color: var(--l6v9sv);
+    position: relative;
+    margin: 0 .3125rem
+}
+
+.l1d038jc .progress .green {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: var(--border-radius);
+    top: 0;
+    max-width: 100%;
+    background-color: var(--primary-color)
+}

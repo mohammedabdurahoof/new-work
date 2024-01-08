@@ -1,6 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
+
+
 
 function SideBar() {
+
+    const [casino, setCasino] = useState(false)
+    const [sports, setSports] = useState(false)
+    const [exclusive, setExclusive] = useState(false)
+    const [sponsorship, setSponsorship] = useState(false)
+
     return (
         <div className="p1nc1a90" id="page-unfold-sidebar" style={{ width: '260px', transform: 'none' }}>
             <div className="pc035jc">
@@ -50,8 +59,8 @@ function SideBar() {
                             <div className="char">Exploration &amp; Riches Await!</div>
                         </div>
                     </div>
-                    <div className="cvb7yhf nav-item-wrap">
-                        <div className="toggle-tigger nav-item">
+                    <div className={casino ? "cvb7yhf nav-item-wrap casino-open" : "cvb7yhf nav-item-wrap"}>
+                        <div className={casino ? "toggle-tigger nav-item open-tigger" : "toggle-tigger nav-item"} onClick={() => setCasino(!casino)}>
                             <div className="nav-item-left"><svg className="s1ff97qc icon">
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Casino"></use>
                             </svg></div>
@@ -59,7 +68,7 @@ function SideBar() {
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                             </svg></div>
                         </div>
-                        <div className="v1qcofba" style={{ height: '0px' }}>
+                        <div className="v1qcofba" style={casino ? { height: 'auto' } : { height: '0px' }}>
                             <div className="casino-sub-navs"><a href="/gamelist/picks-for-you" keep-scroll-position="true"
                                 className="nav-item">
                                 <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -343,16 +352,18 @@ function SideBar() {
                             </div>
                         </div>
                     </div>
-                    <div className="o14ab7td nav-item-wrap">
-                        <div className="toggle-tigger nav-item">
-                            <div className="nav-item-left"><svg className="s1ff97qc icon">
-                                <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Sports"></use>
-                            </svg></div>
+                    <div className={sports ? "o14ab7td nav-item-wrap navbox-open" : "o14ab7td nav-item-wrap"}>
+                        <div className={sports ? "toggle-tigger nav-item open-tigger" : "toggle-tigger nav-item"} onClick={() => setSports(!sports)}>
+
+                            <div className="nav-item-left">
+                                <svg className="s1ff97qc icon">
+                                    <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Sports"></use>
+                                </svg></div>
                             <div className="nav-item-right"><span>Sports</span><svg className="s1ff97qc icon">
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                             </svg></div>
                         </div>
-                        <div className="v1qcofba" style={{ height: '0px' }}>
+                        <div className="v1qcofba" style={sports ? { height: 'auto' } : { height: '0px' }}>
                             <div className="sports-sub-navs"><a href="/sports?bt-path=%2Flive" keep-scroll-position="true"
                                 className="nav-item">
                                 <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -436,8 +447,8 @@ function SideBar() {
                         </svg></div>
                         <div className="nav-item-right"><span className="v"><span className="y">VIP</span>Club</span></div>
                     </a>
-                        <div className="o14ab7td nav-item-wrap">
-                            <div className="toggle-tigger nav-item">
+                        <div className={exclusive ? "o14ab7td nav-item-wrap navbox-open" : "o14ab7td nav-item-wrap"}>
+                            <div className={exclusive ? "toggle-tigger nav-item open-tigger" : "toggle-tigger nav-item"} onClick={() => setExclusive(!exclusive)}>
                                 <div className="nav-item-left"><svg className="s1ff97qc icon">
                                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Exclusive"></use>
                                 </svg></div>
@@ -445,7 +456,7 @@ function SideBar() {
                                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                                 </svg></div>
                             </div>
-                            <div className="v1qcofba" style={{ height: '0px' }}>
+                            <div className="v1qcofba" style={exclusive ? { height: 'auto' } : { height: '0px' }}>
                                 <div className="sports-sub-navs"><a href="/exclusive/daily-contest" keep-scroll-position="true"
                                     className="nav-item">
                                     <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -501,8 +512,8 @@ function SideBar() {
                             </svg></div>
                         </a>
                     </div>
-                    <div className="o14ab7td nav-item-wrap">
-                        <div className="toggle-tigger nav-item">
+                    <div className={sponsorship ? "o14ab7td nav-item-wrap navbox-open" : "o14ab7td nav-item-wrap"}>
+                        <div className={sponsorship ? "toggle-tigger nav-item open-tigger" : "toggle-tigger nav-item"} onClick={() => setSponsorship(!sponsorship)}>
                             <div className="nav-item-left"><svg className="s1ff97qc icon">
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Sponsorship"></use>
                             </svg></div>
@@ -510,7 +521,7 @@ function SideBar() {
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                             </svg></div>
                         </div>
-                        <div className="v1qcofba" style={{ height: '0px' }}>
+                        <div className="v1qcofba" style={sponsorship ? {height : 'auto'} :{ height: '0px' }}>
                             <div className="sports-sub-navs"><a href="/sponsorship/afa" keep-scroll-position="true"
                                 className="nav-item">
                                 <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -554,7 +565,8 @@ function SideBar() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
+
     )
 }
 

@@ -1,0 +1,261 @@
+.s1m5fjkg {
+    padding-top: 1.875rem;
+    position: relative;
+    --c6v96z: #EAECF3
+}
+
+.darken .s1m5fjkg {
+    --c6v96z: #3b3f4a
+}
+
+.s1m5fjkg .loading {
+    height: 60vh
+}
+
+.s1m5fjkg button .loading {
+    height: auto
+}
+
+.s1m5fjkg .page-search-enter {
+    margin-bottom: 1.875rem;
+    border: none
+}
+
+.s1m5fjkg .game-opt-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.s1m5fjkg .game-opt-wrap .path-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-right: auto
+}
+
+.s1m5fjkg .game-opt-wrap .region-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 1rem
+}
+
+.s1m5fjkg .game-opt-wrap .region-block .ui-switch {
+    margin-right: .625rem
+}
+
+.s1m5fjkg .game-opt-wrap .filter-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10
+}
+
+.s1m5fjkg .game-opt-wrap .select-trigger {
+    padding-right: 2.5rem;
+    min-width: 10.75rem
+}
+
+.s1m5fjkg .game-opt-wrap .label {
+    margin-right: .625rem
+}
+
+.s1m5fjkg .game-opt-wrap .filter-sort {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.s1m5fjkg .game-opt-wrap .filter-sort .label {
+    white-space: nowrap
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 3.875rem
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .active {
+    border: none
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .active:after {
+    display: none
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .select-options {
+    max-height: 29.375rem
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .select-option {
+    padding: 0
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .select-option:first-child {
+    border-top: 1px solid var(--c6v96z);
+    border-radius: 0;
+    margin: 0;
+    padding: .875rem 0 .25rem
+}
+
+.s1m5fjkg .game-opt-wrap .filter-provider .all-provider {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 1px
+}
+
+@media screen and (max-width:1000px) {
+    .s1m5fjkg .game-opt-wrap .path-wrap {
+        width: 100%
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-wrap {
+        width: 100%;
+        margin-top: 1.25rem
+    }
+}
+
+@media screen and (max-width:621px) {
+    .s1m5fjkg {
+        padding: 1.25rem .75rem 3.25rem
+    }
+
+    .s1m5fjkg .game-opt-wrap {
+        display: block
+    }
+
+    .s1m5fjkg .game-opt-wrap.tag-filter-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .s1m5fjkg .game-opt-wrap.tag-filter-wrap .path-wrap {
+        width: auto
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-wrap {
+        margin-top: .9375rem;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-wrap .label {
+        display: none
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-wrap .ui-select {
+        width: 100%
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-wrap .ui-select .select-trigger {
+        padding-right: 2.5rem
+    }
+
+    .s1m5fjkg .game-opt-wrap .region-block {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        margin-left: 1.25rem;
+        width: 40%
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-sort {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        margin-right: .375rem
+    }
+
+    .s1m5fjkg .game-opt-wrap .filter-provider {
+        margin-left: .375rem;
+        -webkit-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}

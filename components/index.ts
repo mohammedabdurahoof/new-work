@@ -15,23 +15,11 @@ import Slider from "./Slider";
 import Search from "./Search";
 import Tab from "./Tab";
 import Providers from "./Providers";
+import SportsHeader from "./SportsHeader";
+import Navbar from "./Navbar";
+import GameList from "./GameList";
 
 export {
-    Header,
-    SideBar,
-    Footer,
-    TopButton,
-    Chat,
-    Banner,
-    Cards, 
-    Recent,
-    TopRated,
-    Deposit,
-    Race,
-    Register,
-    Recommended,
-    Slider,
-    Search,
-    Tab,
-    Providers
+    Header, SideBar, Footer, TopButton, Chat, Banner, Cards, Recent, TopRated, Deposit, Race, Register,
+    Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, GameList
 }
