@@ -125,7 +125,7 @@ function Navbar() {
                                                                 <div className="bt85" data-editor-id="leftSidebarBanner"><span
                                                                     style={{ textDecoration: 'inherit' }}>
                                                                     <div className="bt106 bt102"
-                                                                        style={{ backgroundImage: 'url(https://api-k-c34e8269-1337.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282187564133781506)' }}>
+                                                                        style={{ backgroundImage: 'url(https://api-k-5609dac9-1033.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282187564133781506)' }}>
                                                                         <div className="bt109 bt108"
                                                                             style={{ width: '24px', height: '24px' }}>
                                                                             <img
@@ -146,7 +146,7 @@ function Navbar() {
                                                                 <div className="bt85" data-editor-id="leftSidebarBanner"><span
                                                                     style={{ textDecoration: 'inherit' }}>
                                                                     <div className="bt106 bt102"
-                                                                        style={{ backgroundImage: 'url(https://api-k-c34e8269-1337.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282187564133781504)' }}>
+                                                                        style={{ backgroundImage: 'url(https://api-k-5609dac9-1033.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282187564133781504)' }}>
                                                                         <div className="bt109 bt108"
                                                                             style={{ width: '24px', height: '24px' }}><img
                                                                                 src="https://files-immutable-4cbc033nbd3.sptpub.com/flags_by_code/ITA.svg"
@@ -165,7 +165,7 @@ function Navbar() {
                                                                 <div className="bt85" data-editor-id="leftSidebarBanner"><span
                                                                     style={{ textDecoration: 'inherit' }}>
                                                                     <div className="bt106 bt102"
-                                                                        style={{ backgroundImage: 'url(https://api-k-c34e8269-1337.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2303829944544931842)' }}>
+                                                                        style={{ backgroundImage: 'url(https://api-k-5609dac9-1033.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2303829944544931842)' }}>
                                                                         <div className="bt109 bt108"
                                                                             style={{ width: '24px', height: '24px' }}><img
                                                                                 src="https://files-immutable-4cbc033nbd3.sptpub.com/flags_by_code/ENG.svg"
@@ -184,7 +184,7 @@ function Navbar() {
                                                                 <div className="bt85" data-editor-id="leftSidebarBanner"><span
                                                                     style={{ textDecoration: 'inherit' }}>
                                                                     <div className="bt106 bt102"
-                                                                        style={{ backgroundImage: 'url(https://api-k-c34e8269-1337.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282183265995591687)' }}>
+                                                                        style={{ backgroundImage: 'url(https://api-k-5609dac9-1033.sptpub.com/api/v1/promo/banner/brand/2103509236163162112/image/2282183265995591687)' }}>
                                                                         <div className="bt109 bt108"
                                                                             style={{ width: '24px', height: '24px' }}><img
                                                                                 src="https://files-immutable-4cbc033nbd3.sptpub.com/flags_by_code/USA.svg"

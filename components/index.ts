@@ -17,9 +17,12 @@ import Tab from "./Tab";
 import Providers from "./Providers";
 import SportsHeader from "./SportsHeader";
 import Navbar from "./Navbar";
-import GameList from "./GameList";
+import Card from "./Card";
+import ProgressBar from "./ProgressBar";
+import LoadMore from "./LoadMore";
+import Loading from "./Loading";
 
 export {
     Header, SideBar, Footer, TopButton, Chat, Banner, Cards, Recent, TopRated, Deposit, Race, Register,
-    Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, GameList
+    Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore, Loading
 }
