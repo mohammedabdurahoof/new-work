@@ -1,0 +1,135 @@
+.phveoqe {
+    --19opxew: #000000;
+    --2pl4v6: #fff;
+    --9yrp70: #F5F6FA;
+    padding: 16px;
+    border-radius: 4px;
+    background: var(--9yrp70);
+    width: 100%;
+    aspect-ratio: 266 / 183;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.darken .phveoqe {
+    --19opxew: #FFFFFF;
+    --2pl4v6: #32343b;
+    --9yrp70: #1e2024
+}
+
+.phveoqe .header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.phveoqe .header .like {
+    cursor: pointer
+}
+
+.phveoqe .header .area-flag-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 4px
+}
+
+.phveoqe .header .area-flag-box .area-flag {
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #5ddb1c;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 0;
+    margin-right: -17px;
+    padding: 2px 20px 1px 10px;
+    color: var(--19opxew)
+}
+
+@media screen and (max-width:621px) {
+    .phveoqe .header .area-flag-box .area-flag {
+        padding: 0 20px 0 10px
+    }
+}
+
+.phveoqe .header .area-flag-box .area-icon {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+.phveoqe .draw-date {
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: #98a7b5
+}
+
+.phveoqe .draw-title {
+    margin-top: 10px;
+    color: var(--19opxew);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500
+}
+
+.phveoqe .prize-box {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.phveoqe .prize-box .prize-desc {
+    font-style: normal;
+    font-weight: 500;
+    color: #98a7b5
+}
+
+.phveoqe .prize-box .prize-amount {
+    color: var(--19opxew);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 800
+}
+
+.phveoqe .btn-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 4px
+}
+
+.phveoqe .btn-box .btn-name {
+    background: var(--2pl4v6);
+    color: var(--19opxew);
+    height: 2.1875rem
+}

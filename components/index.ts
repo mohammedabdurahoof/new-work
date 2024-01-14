@@ -21,8 +21,20 @@ import Card from "./Card";
 import ProgressBar from "./ProgressBar";
 import LoadMore from "./LoadMore";
 import Loading from "./Loading";
+import Dashboard from "./Sports/Dashboard";
+import SlipBox from "./Lottery/SlipBox";
+import LotteryBanner from "./Lottery/Banner";
+import LotterySearch from "./Lottery/Search";
+import DrawCard from "./Lottery/DrawCard";
+import PopularCard from "./Lottery/PopularCard";
+import RecentWinners from "./Lottery/RecentWinners";
+import TopWinning from "./Lottery/TopWinning";
+import LatestResultsTable from "./Lottery/LatestResultsTable";
+import LotteryTab from "./Lottery/Tab";
 
 export {
     Header, SideBar, Footer, TopButton, Chat, Banner, Cards, Recent, TopRated, Deposit, Race, Register,
-    Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore, Loading
+    Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore,
+    Loading, Dashboard, SlipBox, LotteryBanner, LotterySearch, DrawCard, PopularCard, RecentWinners, 
+    TopWinning, LatestResultsTable, LotteryTab
 }

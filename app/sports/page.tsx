@@ -1,4 +1,4 @@
-import { Chat, Footer, Navbar, SportsHeader, TopButton } from '@/components'
+import { Chat, Dashboard, Footer, Navbar, SportsHeader, TopButton } from '@/components'
 import React from 'react'
 
 function page() {
@@ -12,6 +12,7 @@ function page() {
                             <div className="bt27">
                                 <div className="bt28">
                                     <Navbar />
+                                    <Dashboard />
                                 </div>
                             </div>
                         </div>
