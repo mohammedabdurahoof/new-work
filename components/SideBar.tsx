@@ -1,25 +1,33 @@
 "use client"
 import React, { useState } from 'react'
+import FoldNav from './FoldNav';
+import UnFoldNav from './UnFoldNav';
 
+interface Props {
+    open: boolean;
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
 
+function SideBar({ open, setOpen }: Props) {
 
-function SideBar() {
-
-    const [casino, setCasino] = useState(false)
-    const [sports, setSports] = useState(false)
-    const [exclusive, setExclusive] = useState(false)
-    const [sponsorship, setSponsorship] = useState(false)
 
     return (
-        <div className="p1nc1a90" id="page-unfold-sidebar" style={{ width: '260px', transform: 'none' }}>
-            <div className="pc035jc">
-                <div className="header-sidebar-inner"><button className="fold-btn"><svg className="s1ff97qc icon">
-                    <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Tighten"></use>
-                </svg></button><a href="/" keep-scroll-position="true" className="logo-pc is-active"><img alt="logo"
-                    className="logo-com" src="/images/logo.33451179.png" /></a></div>
+        <div className="p1nc1a90" id={open ? "page-unfold-sidebar" : "page-fold-sidebar"} style={open ? { width: '260px', transform: 'none' } : { width: '260px', transform: 'translateX(-196px) translateZ(0px)' }}>
+            <div className={`pc035jc ${!open && "sidebar-header-fold"}`}>
+                <div className="header-sidebar-inner">
+                    <button className="fold-btn" onClick={() => setOpen(!open)}>
+                        <svg className="s1ff97qc icon">
+                            <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Tighten"></use>
+                        </svg></button>
+                    {open && <a href="/" keep-scroll-position="true" className="logo-pc is-active"><img alt="logo"
+                        className="logo-com" src="/images/logo.33451179.png" /></a>}
+                </div>
             </div>
             <div className="pc-sidebar-inner">
-                <div className="u1hrvna7 hidden-scroll-y unfold-scroll-wrap">
+                {
+                    open ? <UnFoldNav /> : <FoldNav />
+                }
+                {/* <div className="u1hrvna7 hidden-scroll-y unfold-scroll-wrap">
                     <div className="pk7420m bonus-link-enter">
                         <div className="nav-item-wrap"><a href="/bonus" keep-scroll-position="true" className="nav-item">
                             <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -86,6 +94,8 @@ function SideBar() {
                                     </svg></div>
                                     <div className="nav-item-right"><span>Recent</span></div>
                                 </a>
+
+
                                 <div className="game-nav-wrap"><a href="/casino?tab=brand" keep-scroll-position="true"
                                     className="nav-item">
                                     <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -313,7 +323,10 @@ function SideBar() {
                                                 </a></div>
                                         </div>
                                     </div>
-                                </div><a href="/gamelist/slots" keep-scroll-position="true" className="nav-item">
+                                </div>
+
+
+                                <a href="/gamelist/slots" keep-scroll-position="true" className="nav-item">
                                     <div className="nav-item-left"><svg className="s1ff97qc icon">
                                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Slots"></use>
                                     </svg></div>
@@ -440,7 +453,8 @@ function SideBar() {
                         </svg></div>
                         <div className="nav-item-right"><span>Bingo</span></div>
                     </a></div>
-                    <div className="nav-item-wrap list-nav"><a href="#/vip" keep-scroll-position="true" className="nav-item"
+                    <div className="nav-item-wrap list-nav">
+                        <a href="#/vip" keep-scroll-position="true" className="nav-item"
                         target="_self">
                         <div className="nav-item-left"><svg className="s1ff97qc icon">
                             <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_VipClub"></use>
@@ -457,7 +471,8 @@ function SideBar() {
                                 </svg></div>
                             </div>
                             <div className="v1qcofba" style={exclusive ? { height: 'auto' } : { height: '0px' }}>
-                                <div className="sports-sub-navs"><a href="/exclusive/daily-contest" keep-scroll-position="true"
+                                <div className="sports-sub-navs">
+                                    <a href="/exclusive/daily-contest" keep-scroll-position="true"
                                     className="nav-item">
                                     <div className="nav-item-left"><svg className="s1ff97qc icon">
                                         <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_DailyContest"></use>
@@ -521,7 +536,7 @@ function SideBar() {
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                             </svg></div>
                         </div>
-                        <div className="v1qcofba" style={sponsorship ? {height : 'auto'} :{ height: '0px' }}>
+                        <div className="v1qcofba" style={sponsorship ? { height: 'auto' } : { height: '0px' }}>
                             <div className="sports-sub-navs"><a href="/sponsorship/afa" keep-scroll-position="true"
                                 className="nav-item">
                                 <div className="nav-item-left"><svg className="s1ff97qc icon">
@@ -563,7 +578,7 @@ function SideBar() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div >
 

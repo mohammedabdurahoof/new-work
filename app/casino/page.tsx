@@ -3,9 +3,6 @@ import React from 'react'
 
 function page() {
   return (
-    <div id="root" className="side-unfold base-layout g6">
-      <Header />
-      <SideBar />
       <div className="s1r31mst">
         <Slider />
         <div className="page-max-width-wrap casino-container">
@@ -24,10 +21,6 @@ function page() {
           <Race />
         </div>
       </div>
-      <Footer />
-      <Chat />
-      <TopButton />
-    </div>
   )
 }
 

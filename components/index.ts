@@ -31,10 +31,11 @@ import RecentWinners from "./Lottery/RecentWinners";
 import TopWinning from "./Lottery/TopWinning";
 import LatestResultsTable from "./Lottery/LatestResultsTable";
 import LotteryTab from "./Lottery/Tab";
+import Login from "./Login";
 
 export {
     Header, SideBar, Footer, TopButton, Chat, Banner, Cards, Recent, TopRated, Deposit, Race, Register,
     Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore,
     Loading, Dashboard, SlipBox, LotteryBanner, LotterySearch, DrawCard, PopularCard, RecentWinners, 
-    TopWinning, LatestResultsTable, LotteryTab
+    TopWinning, LatestResultsTable, LotteryTab, Login
 }

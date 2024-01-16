@@ -77,10 +77,7 @@ function page() {
 
 
     return (
-        <div id="root" className="side-unfold base-layout g6">
-            <div className="s1u0fsnz"></div>
-            <Header />
-            <SideBar />
+        
             <div className="pavjosj">
                 {/* <SlipBox /> */}
                 <div className="l1w5rrxf">
@@ -285,10 +282,7 @@ function page() {
                 </div>
             </div>
 
-            <Footer />
-            <Chat />
-            <TopButton />
-        </div>
+            
     )
 }
 

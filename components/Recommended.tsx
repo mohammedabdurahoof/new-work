@@ -1,7 +1,7 @@
-import { CardProps } from '@/types'
+import { CardProps, CardsProps } from '@/types'
 import React from 'react'
 
-function Recommended({title}:CardProps) {
+function Recommended({title}:CardsProps) {
   return (
     <div className="ggjjku9 s1kcy63f recommend-list">
     <div className="grid-tit"><span className="txt">{title}</span></div>

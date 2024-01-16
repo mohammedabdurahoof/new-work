@@ -1,4 +1,4 @@
-import { Chat, Footer, GameList, Header, Recommended, SideBar, TopButton } from '@/components'
+import { Recommended } from '@/components'
 import React from 'react'
 import '../../styles/index.8c75d3e3.css'
 import '../../styles/GameList.4fceab7d.css'
@@ -6,9 +6,6 @@ import '../../styles/GameNavPath.e1cc4a4a.css'
 
 function page() {
     return (
-        <div id="root" className="base-layout side-unfold g6">
-            <Header />
-            <SideBar />
             <div className="s1m5fjkg">
                 <div className="slots-container page-max-width-wrap">
                     <div className="game-opt-wrap">
@@ -28,10 +25,6 @@ function page() {
                     </div>
                 </div>
             </div>
-            <Footer />
-            <Chat />
-            <TopButton />
-        </div>
     )
 }
 
