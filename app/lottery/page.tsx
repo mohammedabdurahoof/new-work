@@ -7,8 +7,8 @@ import '../../styles/index-cfec0d67.css'
 import '../../styles/GridScrollList-6c8cb4d1.css'
 
 
-function page() {
-    const [tabIndex, setTabIndex] = useState(1)
+function Page() {
+    const [tabIndex, setTabIndex] = useState(1);
 
     const style = { '--grid-num': 4 } as React.CSSProperties;
     const pstyle = {
@@ -286,4 +286,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
