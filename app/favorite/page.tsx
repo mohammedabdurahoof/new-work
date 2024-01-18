@@ -20,7 +20,6 @@ function page() {
                         </div>
                     </div>
                     <div className="s1qvj928">
-                        <GameList />
                         <Recommended title='Recommended Games' />
                     </div>
                 </div>

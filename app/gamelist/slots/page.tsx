@@ -80,9 +80,7 @@ function page() {
 
 
   return (
-    <div id="root" className="base-layout side-unfold g6">
-      <Header />
-      <SideBar />
+    
 
       <div className="s1m5fjkg">
         <div className="slots-container page-max-width-wrap">
@@ -144,10 +142,7 @@ function page() {
             </div> : <Loading />}
         </div>
       </div>
-      <Footer />
-      <Chat />
-      <TopButton />
-    </div>
+      
   )
 }
 
