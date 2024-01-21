@@ -5274,3 +5274,226 @@ button {
     color: #fff;
     background-color: rgb(59, 193, 22);
 }
+
+.bt1181 {
+    padding: 0 32px;
+}
+
+.bt1182 {
+    position: relative;
+    padding-top: 12px;
+}
+
+.bt2190 {
+    color: inherit;
+    font-size: 12px;
+}
+
+.bt1192 {
+    opacity: 0.5;
+    text-align: center;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.bt1191 {
+    display: flex;
+    justify-content: center;
+}
+
+.bt2194 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bt2193 {
+    height: 40px;
+    padding: 0 10px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.38px;
+}
+
+.bt1195 {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 18px;
+    letter-spacing: 0.09px;
+    text-transform: uppercase;
+}
+
+.bt2733 {
+    display: flex;
+    margin-top: 24px;
+}
+
+.bt2753 {
+    flex: 1;
+    overflow: hidden;
+}
+
+.bt2759 {
+    width: 100%;
+    height: 16px;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
+    white-space: nowrap;
+}
+
+.bt2760 {
+    color: rgba(255, 255, 255, 0.5);
+    height: 16px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bt2758 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bt373 {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.bt2374 {
+    color: inherit;
+    display: block;
+}
+
+.bt2761 {
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    font-size: inherit;
+    word-break: break-all;
+    align-items: center;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.bt376 {
+    margin: 0 2px;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+}
+
+.bt2754 {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bt2757 {
+    color: #21A8F7;
+    font-weight: 600;
+}
+
+.bt2764 {
+    color: rgb(33, 168, 247);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    white-space: nowrap;
+    letter-spacing: 0.24px;
+    vertical-align: middle;
+}
+
+
+.bt2396 {
+    color: inherit !important;
+    opacity: 0.5;
+}
+
+.bt2735 {
+    width: calc(100% + 8px);
+    display: flex;
+    position: relative;
+    margin-top: 12px;
+}
+
+.bt2765 {
+    width: 100%;
+    display: flex;
+}
+
+.bt2787,
+.bt2772,
+.bt2781 {
+    flex: 1 1 0%;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 48, 54);
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+    font-size: 12px;
+    background: rgb(46, 48, 54);
+    box-sizing: border-box;
+    min-height: 192px;
+    align-items: center;
+    font-weight: 600;
+    line-height: 18px;
+    margin-right: 8px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.bt410 {
+    display: inline-block;
+    position: relative;
+}
+
+.bt2768 {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+    max-height: 74px;
+    overflow-y: hidden;
+    text-align: center;
+    word-break: initial;
+}
+
+.bt2790,
+.bt2784,
+.bt2778 {
+    color: rgb(255, 255, 255);
+    padding: 0px 12px;
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.bt491 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.bt2769 {
+    max-width: 64px;
+}
+
+.bt2766 {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    opacity: 0.5;
+    font-size: 20px;
+    max-width: 100%;
+    align-items: center;
+    line-height: 24px;
+    justify-content: center;
+}
