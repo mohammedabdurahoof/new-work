@@ -1,16 +1,19 @@
 import React from 'react'
+import { useMediaQuery } from 'react-responsive';
 
 interface Props {
     open: boolean;
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+    isMobile: boolean ;
 }
 
-function Login({ open, setOpen }: Props) {
+function Login({ open, setOpen,isMobile }: Props) {
+    // const isMobile = useMediaQuery({ maxWidth: 767 });
     return (
         <div className="wdcb8sn ui-dialog-overlayer" style={open ? { display: 'block', backgroundColor: 'rgba(0, 0, 0, 0.667)' } : { display: 'none', backgroundColor: 'rgba(0, 0, 0, 0.667)' }}>
-            <div className="ui-dialog-wrap" style={{ width: '800px', height: '546px', marginTop: '-273px', marginLeft: '-400px', opacity: 1, transform: 'none' }}>
-                <div className="ui-dialog sh1kgj9" style={{ opacity: 1,  visibility: 'visible', transform: 'translateX(0%) scale(1) translateZ(0px)' }}>
-                    <button className="close-icon i1gm0mn8 dialog-close" onClick={()=>setOpen(false)}>
+            <div className="ui-dialog-wrap" style={isMobile ? { transform: 'translateX(0%) translateZ(0px)' } : { width: '800px', height: '546px', marginTop: '-273px', marginLeft: '-400px', opacity: 1, transform: 'none' }}>
+                <div className="ui-dialog sh1kgj9" style={{ opacity: 1, visibility: 'visible', transform: 'translateX(0%) scale(1) translateZ(0px)' }}>
+                    <button className="close-icon i1gm0mn8 dialog-close" onClick={() => setOpen(false)}>
                         <svg className="s1ff97qc icon">
                             <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Close"></use>
                         </svg>

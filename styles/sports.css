@@ -291,7 +291,8 @@ button {
     pointer-events: auto;
     cursor: pointer;
 }
-.bt484 {
+
+.bt397 {
     color: inherit;
     display: flex;
     transition: all 0.3s;
@@ -299,12 +300,11 @@ button {
     justify-content: center;
 }
 
-.bt484 svg {
+.bt397 svg {
     fill: currentColor;
 }
 
-
-.bt477 {
+.bt440 {
     top: 0;
     left: 0;
     width: 100%;
@@ -317,16 +317,16 @@ button {
     justify-content: center;
 }
 
-.bt478 {
+.bt441 {
     width: 14px;
     border: 2px solid rgba(255, 255, 255, 1);
     height: 14px;
-    animation: bt479 1s linear infinite;
+    animation: bt442 1s linear infinite;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 
-@-webkit-keyframes bt479 {
+@-webkit-keyframes bt442 {
     0% {
         transform: rotate(0deg);
     }
@@ -340,7 +340,7 @@ button {
     }
 }
 
-.bt480 {
+.bt443 {
     top: 0;
     left: 0;
     width: 100%;
@@ -348,7 +348,7 @@ button {
     position: absolute;
 }
 
-.bt481 {
+.bt444 {
     right: 2px;
     width: 0;
     bottom: 2px;
@@ -357,11 +357,11 @@ button {
     border-color: transparent transparent #FF4E4E transparent;
     border-style: solid;
     border-width: 0 0 8px 8px;
-    animation-name: bt483;
+    animation-name: bt446;
     animation-duration: 2s;
 }
 
-.bt482 {
+.bt445 {
     top: 2px;
     right: 2px;
     width: 0;
@@ -370,11 +370,11 @@ button {
     border-color: transparent #7ed321 transparent transparent;
     border-style: solid;
     border-width: 0 8px 8px 0;
-    animation-name: bt483;
+    animation-name: bt446;
     animation-duration: 2s;
 }
 
-@-webkit-keyframes bt483 {
+@-webkit-keyframes bt446 {
     16% {
         opacity: 1;
     }
@@ -400,73 +400,73 @@ button {
     }
 }
 
-.bt437 {
+.bt377 {
     height: 1.2em;
     display: flex;
     overflow: hidden;
     flex-direction: column;
 }
 
-.bt438 .bt440 {
+.bt378 .bt380 {
     transform: translateY(110%);
 }
 
-.bt438 .bt441 {
+.bt378 .bt381 {
     transform: translateY(0);
 }
 
-.bt438 .bt442 {
+.bt378 .bt382 {
     transform: translateY(-100%);
 }
 
-.bt438 .bt443 {
+.bt378 .bt383 {
     transform: translateY(-210%);
 }
 
-.bt440 {
+.bt380 {
     transform: translateY(-110%);
 }
 
-.bt441 {
+.bt381 {
     transform: translateY(0);
     transition: transform 400ms ease-in-out;
 }
 
-.bt442 {
+.bt382 {
     transform: translateY(-100%);
 }
 
-.bt443 {
+.bt383 {
     transform: translateY(10%);
     transition: transform 400ms ease-in-out;
 }
 
-.bt461 {
+.bt424 {
     padding: 4px;
     box-sizing: border-box;
     font-weight: 600;
 }
 
-.bt462 {
+.bt425 {
     max-width: 100%;
     flex-basis: 100%;
     padding-left: 0;
     padding-right: 0;
 }
 
-.bt463 {
+.bt426 {
     flex-grow: 0;
     max-width: 50%;
     flex-basis: 50%;
 }
 
-.bt464 {
+.bt427 {
     flex-grow: 0;
     max-width: 33.333%;
     flex-basis: 33.333%;
 }
 
-.bt465 {
+.bt428 {
     color: #ffffff;
     border: 1px solid;
     cursor: pointer;
@@ -485,7 +485,7 @@ button {
     justify-content: space-between;
 }
 
-.bt466 {
+.bt429 {
     color: #ffffff;
     cursor: default;
     opacity: 0.3;
@@ -494,25 +494,25 @@ button {
     border-color: #2e3036;
 }
 
-.bt466 .bt469 {
+.bt429 .bt432 {
     color: #ffffff;
 }
 
-.bt467 {
+.bt430 {
     color: #ffffff;
     background: #3BC116;
     border-color: #3BC116;
 }
 
-.bt467 .bt469:not(.bt470) {
+.bt430 .bt432:not(.bt433) {
     color: #ffffff;
 }
 
-.bt468 {
+.bt431 {
     justify-content: center;
 }
 
-.bt469 {
+.bt432 {
     flex: 1;
     color: rgba(255, 255, 255, 0.5);
     display: flex;
@@ -523,37 +523,37 @@ button {
     padding-right: 4px;
 }
 
-.bt470 {
+.bt433 {
     height: auto;
     mask-image: none;
     margin-bottom: 8px;
 }
 
-.bt470 .bt471 {
+.bt433 .bt434 {
     height: 100%;
     overflow: visible;
 }
 
 @media (min-width: 599px) {
-    .bt470 {
+    .bt433 {
         margin-bottom: 0;
     }
 
-    .bt470 .bt471 {
+    .bt433 .bt434 {
         display: flex;
         align-items: center;
         padding-left: 8px;
     }
 }
 
-.bt471 {
+.bt434 {
     height: 1.2em;
     overflow: hidden;
     box-sizing: border-box;
     word-break: break-all;
 }
 
-.bt472 {
+.bt435 {
     flex: none;
     font-size: 12px;
     align-self: center;
@@ -561,7 +561,7 @@ button {
     line-height: 1.2;
 }
 
-.bt473 {
+.bt436 {
     color: #ffffff;
     width: 100%;
     display: flex;
@@ -573,75 +573,75 @@ button {
 }
 
 @media (min-width: 600px) {
-    .bt473 {
+    .bt436 {
         width: 25vw;
         margin-left: 32px;
     }
 }
 
-.bt474 {
+.bt437 {
     color: #ffffff;
     background: #3BC116;
     border-color: #3BC116;
 }
 
-.bt475 {
+.bt438 {
     height: 1.2em;
     margin-right: 4px;
 }
 
 @media (hover: hover) {
-    .bt465:hover {
+    .bt428:hover {
         color: #ffffff;
         background: rgba(46, 48, 54, 0.7);
         border-color: rgba(46, 48, 54, 0.7);
     }
 
-    .bt465:hover .bt469:not(.bt470) {
+    .bt428:hover .bt432:not(.bt433) {
         color: rgba(255, 255, 255, 0.5);
     }
 
-    .bt476:hover .bt474 {
+    .bt439:hover .bt437 {
         color: #ffffff;
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt466:hover {
+    .bt429:hover {
         color: #ffffff;
         background: #2e3036;
         border-color: #2e3036;
     }
 
-    .bt466:hover .bt469 {
+    .bt429:hover .bt432 {
         color: #ffffff;
     }
 
-    .bt467:hover {
+    .bt430:hover {
         color: #ffffff;
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt467:hover .bt469:not(.bt470) {
+    .bt430:hover .bt432:not(.bt433) {
         color: #ffffff;
     }
 }
 
-.bt179 {
+.bt108 {
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.bt180 {
+.bt109 {
     display: inline-block;
     white-space: nowrap;
     vertical-align: top;
 }
 
-.bt181 {
+.bt110 {
     width: 100%;
     height: 100%;
     overflow-x: auto;
@@ -649,34 +649,34 @@ button {
     padding-bottom: 50px;
 }
 
-.bt181::-webkit-scrollbar {
+.bt110::-webkit-scrollbar {
     display: none;
 }
 
-.bt411 {
+.bt350 {
     display: inline-block;
 }
 
-.bt412 {
+.bt351 {
     display: inline-block;
 }
 
-.bt53 {
+.bt55 {
     display: inline-block;
 }
 
-.bt423 {
+.bt363 {
     display: inline-block;
     position: relative;
 }
 
-.bt424 {
+.bt364 {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.bt425 {
+.bt365 {
     top: 0;
     left: 0;
     right: 0;
@@ -684,37 +684,37 @@ button {
     position: absolute;
 }
 
-.bt943 {
+.bt1240 {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.bt408 {
+.bt347 {
     color: #ffffff !important;
     opacity: 0.5;
 }
 
-.bt409 {
+.bt348 {
     color: inherit !important;
     opacity: 0.5;
 }
 
-.bt385 {
+.bt325 {
     display: inline-block;
     margin-right: 4px;
 }
 
-.bt386 {
+.bt326 {
     color: inherit;
     display: block;
 }
 
-.bt388 {
+.bt328 {
     margin: 0 2px;
     opacity: 0.5;
     transform: rotate(-90deg);
 }
 
-.bt881 {
+.bt537 {
     width: 100%;
     height: 19px;
     display: flex;
@@ -724,7 +724,7 @@ button {
     margin-bottom: 6px;
 }
 
-.bt882 {
+.bt538 {
     top: 0;
     left: 0;
     width: 100%;
@@ -732,7 +732,7 @@ button {
     position: absolute;
 }
 
-.bt883 {
+.bt539 {
     display: flex;
     font-size: 0;
     align-items: center;
@@ -741,7 +741,7 @@ button {
     vertical-align: middle;
 }
 
-.bt884 {
+.bt540 {
     flex: 1;
     color: #fff;
     display: flex;
@@ -752,11 +752,11 @@ button {
     margin-right: 8px;
 }
 
-.bt885 {
+.bt541 {
     opacity: 1;
 }
 
-.bt886 {
+.bt542 {
     flex: 0 0 auto;
     color: #fff;
     display: flex;
@@ -768,11 +768,11 @@ button {
     justify-content: flex-end;
 }
 
-.bt887:first-letter {
+.bt543:first-letter {
     text-transform: capitalize;
 }
 
-.bt453 {
+.bt393 {
     color: #ffffff;
     margin: 0;
     z-index: 4;
@@ -782,11 +782,11 @@ button {
     font-weight: 600;
 }
 
-.bt454 .bt455 {
+.bt394 .bt395 {
     mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
 }
 
-.bt455 {
+.bt395 {
     width: 100%;
     height: 16px;
     opacity: 0.5;
@@ -797,36 +797,36 @@ button {
     border-radius: 2px;
 }
 
-.bt456 {
+.bt396 {
     cursor: pointer;
     display: inline;
 }
 
-.bt457 {
+.bt420 {
     flex: 1;
     position: relative;
     margin-top: 8px;
 }
 
-.bt459 {
+.bt422 {
     width: calc(100% + 8px);
     margin: -4px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.bt460 {
+.bt423 {
     margin-top: 16px;
     text-align: left;
     padding-left: 8px;
     margin-bottom: 8px;
 }
 
-.bt896 {
+.bt552 {
     color: #ffffff;
 }
 
-.bt897 {
+.bt553 {
     color: #ffffff;
     border: 0;
     background: rgba(255, 255, 255, 0.3);
@@ -834,50 +834,50 @@ button {
     border-radius: 6px;
 }
 
-.bt898 {
+.bt554 {
     color: #ffffff;
     background: #3BC116;
     border-color: #3BC116;
 }
 
-.bt898 .bt896 {
+.bt554 .bt552 {
     color: #ffffff;
 }
 
-.bt899 {
+.bt555 {
     color: #ffffff;
     opacity: 0.5;
     background: rgba(255, 255, 255, 0.3);
     border-color: transparent;
 }
 
-.bt899 .bt896 {
+.bt555 .bt552 {
     color: #ffffff;
 }
 
 @media (hover: hover) {
-    .bt897:hover:not(.bt898):not(.bt899) {
+    .bt553:hover:not(.bt554):not(.bt555) {
         color: #ffffff;
         background: rgba(255, 255, 255, 0.4);
         border-color: transparent;
     }
 
-    .bt897:hover:not(.bt898):not(.bt899) .bt896 {
+    .bt553:hover:not(.bt554):not(.bt555) .bt552 {
         color: #ffffff;
     }
 
-    .bt898:hover:not(.bt899) {
+    .bt554:hover:not(.bt555) {
         color: #ffffff;
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt898:hover:not(.bt899) .bt896 {
+    .bt554:hover:not(.bt555) .bt552 {
         color: #ffffff;
     }
 }
 
-.bt895 {
+.bt551 {
     left: 50%;
     color: #ffffff;
     bottom: 32px;
@@ -885,7 +885,7 @@ button {
     transform: translate(-50%);
 }
 
-.bt859 {
+.bt515 {
     width: 100%;
     cursor: pointer;
     height: 100%;
@@ -893,7 +893,7 @@ button {
     background: #24262B;
 }
 
-.bt860 {
+.bt516 {
     width: 100%;
     height: 100%;
     z-index: 5;
@@ -901,36 +901,36 @@ button {
     background: transparent;
 }
 
-.bt861 {
+.bt517 {
     background: transparent;
 }
 
-.bt863 {
+.bt519 {
     width: auto;
     height: 100%;
 }
 
-.bt864 {
+.bt520 {
     opacity: 0;
 }
 
-.bt865 {
+.bt521 {
     flex: 1;
     display: flex;
     text-decoration: none;
 }
 
-.bt866 {
+.bt522 {
     flex: 0 0 auto;
 }
 
-.bt867 {
+.bt523 {
     display: flex;
     margin-bottom: -32px;
     justify-content: center;
 }
 
-.bt868 {
+.bt524 {
     color: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.5);
     margin: 0 4px;
@@ -946,7 +946,7 @@ button {
     justify-content: center;
 }
 
-.bt869 {
+.bt525 {
     top: 0;
     left: 0;
     width: 100%;
@@ -959,7 +959,7 @@ button {
     background-position: center center;
 }
 
-.bt870 {
+.bt526 {
     top: 0;
     left: 0;
     width: 100%;
@@ -976,50 +976,51 @@ button {
     background-position: center center;
 }
 
-.bt871 {
+.bt527 {
     opacity: 1;
 }
 
-.bt872 .bt874 {
+.bt528 .bt530 {
     align-items: center;
     flex-direction: row;
 }
 
-.bt872 .bt876 {
+.bt528 .bt532 {
     align-items: center;
     flex-direction: row-reverse;
 }
 
-.bt872 .bt879 {
+.bt528 .bt535 {
     padding-bottom: 0;
 }
 
-.bt872 .bt878 {
+.bt528 .bt534 {
     font-size: 12px;
     font-weight: 600;
 }
 
-.bt873 .bt874 {
+
+.bt529 .bt530 {
     padding-right: 32px;
 }
 
-.bt873 .bt876 {
+.bt529 .bt532 {
     padding-left: 32px;
 }
 
-.bt873 .bt875 {
+.bt529 .bt531 {
     align-items: flex-start;
     padding-right: 16px;
     flex-direction: column;
 }
 
-.bt873 .bt877 {
+.bt529 .bt533 {
     align-items: flex-end;
     padding-left: 16px;
     flex-direction: column;
 }
 
-.bt874 {
+.bt530 {
     flex: 1;
     display: flex;
     align-items: flex-start;
@@ -1028,12 +1029,12 @@ button {
     justify-content: flex-start;
 }
 
-.bt875 {
+.bt531 {
     align-items: flex-start;
     flex-direction: column;
 }
 
-.bt876 {
+.bt532 {
     flex: 1;
     display: flex;
     align-items: flex-end;
@@ -1043,20 +1044,20 @@ button {
     justify-content: flex-start;
 }
 
-.bt876 .bt878 {
+.bt532 .bt534 {
     text-align: right;
 }
 
-.bt876 .bt879 {
+.bt532 .bt535 {
     padding-left: 8px;
     padding-right: 0;
 }
 
-.bt877 {
+.bt533 {
     align-items: flex-end;
 }
 
-.bt878 {
+.bt534 {
     color: #ffffff;
     order: 2;
     display: -webkit-box;
@@ -1069,7 +1070,7 @@ button {
     -webkit-line-clamp: 2;
 }
 
-.bt879 {
+.bt535 {
     order: 1;
     width: 32px;
     max-height: 36px;
@@ -1077,14 +1078,14 @@ button {
     padding-bottom: 8px;
 }
 
-.bt880 {
+.bt536 {
     height: 32px;
     display: flex;
     text-align: left;
     padding-bottom: 8px;
 }
 
-.bt850 {
+.bt175 {
     width: 100%;
     cursor: pointer;
     height: 100%;
@@ -1092,7 +1093,7 @@ button {
     background: #000;
 }
 
-.bt851 {
+.bt176 {
     top: 0;
     left: 0;
     width: 100%;
@@ -1104,7 +1105,7 @@ button {
     background-position: center center;
 }
 
-.bt852 {
+.bt177 {
     top: 0;
     left: 0;
     width: 100%;
@@ -1117,7 +1118,7 @@ button {
     justify-content: center;
 }
 
-.bt853 {
+.bt178 {
     color: #fff;
     width: 280px;
     margin: 0 auto;
@@ -1126,11 +1127,11 @@ button {
     line-height: 24px;
 }
 
-.bt854 {
+.bt179 {
     margin-top: 12px;
 }
 
-.bt855 {
+.bt180 {
     color: #ffffff;
     width: auto;
     height: 32px;
@@ -1146,176 +1147,12 @@ button {
 }
 
 @media (hover: hover) {
-    .bt855:hover {
+    .bt180:hover {
         opacity: 0.75;
     }
 }
 
-.bt1103 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 8px;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-}
-
-.bt1104 {
-    display: flex;
-    z-index: 2;
-    position: relative;
-    align-items: center;
-}
-
-.bt1105 {
-    flex: 1;
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-}
-
-.bt1105:last-of-type {
-    flex: 0 0 auto;
-}
-
-.bt1106 {
-    flex: 1;
-    color: #ffffff;
-    display: flex;
-    z-index: 2;
-    position: relative;
-    box-sizing: border-box;
-    align-items: center;
-    font-weight: 600;
-    padding-top: 19px;
-    flex-direction: column;
-}
-
-.bt1107 {
-    color: #ffffff;
-    width: 100%;
-    height: 32px;
-    display: flex;
-    z-index: 2;
-    overflow: hidden;
-    position: relative;
-    font-size: 14px;
-    background: rgba(255, 255, 255, 0.3);
-    transition: background 0.3s;
-    align-items: center;
-    font-weight: 600;
-    line-height: 18px;
-    border-color: transparent;
-    border-radius: 6px;
-    justify-content: center;
-}
-
-.bt1108 {
-    color: #ffffff;
-    background: #3BC116;
-    border-color: #3BC116;
-}
-
-.bt1108 .bt1111 {
-    color: inherit;
-}
-
-.bt1109 {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.3);
-    border-color: transparent;
-}
-
-.bt1109 .bt1111 {
-    color: inherit;
-}
-
-.bt1110 {
-    opacity: 0.6;
-    margin-right: 8px;
-    text-decoration: line-through;
-}
-
-.bt1111 {
-    color: #7ed321;
-}
-
-.bt1112 {
-    margin-right: 4px;
-}
-
-.bt1113 {
-    opacity: 0.5;
-    min-width: 16px;
-}
-
-.bt1114 {
-    opacity: 0.5;
-    overflow: hidden;
-    font-size: 12px;
-    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-    font-weight: 600;
-    line-height: 13px;
-    margin-left: 4px;
-    white-space: nowrap;
-}
-
-.bt1115 {
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 8px;
-}
-
-.bt1116 {
-    opacity: 0.7;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.bt1117 {
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 100%;
-    z-index: 1;
-    position: absolute;
-}
-
-.bt1118 {
-    opacity: 0;
-}
-
-@media (hover: hover) {
-    .bt1103:hover {
-        cursor: pointer;
-    }
-
-    .bt1103:hover .bt1114 {
-        opacity: 1;
-        transition: color, opacity 0.3s;
-    }
-
-    .bt1103:hover .bt1113 {
-        opacity: 1;
-        transition: color, opacity 0.3s;
-    }
-
-    .bt1107:not(.bt1109):hover {
-        color: #ffffff;
-        cursor: pointer;
-        background: rgba(255, 255, 255, 0.4);
-        border-color: transparent;
-    }
-
-    .bt1108:not(.bt1109):hover {
-        color: #ffffff;
-        background: rgba(59, 193, 22, 0.75);
-        border-color: rgba(59, 193, 22, 0.75);
-    }
-}
-
-.bt848 {
+.bt173 {
     color: #ffffff;
     width: 100%;
     height: 100%;
@@ -1325,7 +1162,7 @@ button {
     border-radius: 12px;
 }
 
-.bt848.bt849::after {
+.bt173.bt174::after {
     top: 0;
     left: 0;
     right: 0;
@@ -1336,7 +1173,7 @@ button {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 }
 
-.bt836 {
+.bt166 {
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -1344,7 +1181,7 @@ button {
     touch-action: pan-y;
 }
 
-.bt837 {
+.bt167 {
     display: flex;
     position: absolute;
     max-width: 100%;
@@ -1352,15 +1189,15 @@ button {
     align-items: center;
 }
 
-.bt838 {
+.bt168 {
     box-sizing: content-box !important;
 }
 
-.bt839 {
+.bt169 {
     transition: unset;
 }
 
-.bt840 {
+.bt170 {
     top: 0;
     left: 0;
     right: 0;
@@ -1370,26 +1207,26 @@ button {
     pointer-events: none;
 }
 
-.bt841 {
+.bt171 {
     opacity: 0;
     transition: 0.3s;
     visibility: hidden;
     pointer-events: none;
 }
 
-.bt842 {
+.bt172 {
     width: 100%;
     position: relative;
 }
 
 @media (hover: hover) {
-    .bt842:hover .bt841 {
+    .bt172:hover .bt171 {
         opacity: 1;
         visibility: visible;
     }
 }
 
-.bt843 {
+.bt1057 {
     right: 12px;
     width: 32px;
     border: 1px solid #dfe1e5;
@@ -1405,19 +1242,19 @@ button {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.bt843:hover {
+.bt1057:hover {
     opacity: 1;
 }
 
-.bt844 {
+.bt1058 {
     left: 12px;
 }
 
-.bt844 .bt845 {
+.bt1058 .bt1059 {
     transform: rotate(-90deg);
 }
 
-.bt845 {
+.bt1059 {
     color: #757575;
     cursor: pointer;
     display: flex;
@@ -1426,16 +1263,16 @@ button {
     justify-content: center;
 }
 
-.bt228 {
+.bt157 {
     display: flex;
     align-items: center;
 }
 
-.bt229 {
+.bt158 {
     overflow: hidden;
 }
 
-.bt230 {
+.bt159 {
     flex: 0 0 auto;
     height: 152px;
     overflow: hidden;
@@ -1443,43 +1280,43 @@ button {
     padding-right: 16px;
 }
 
-.bt230:last-of-type {
+.bt159:last-of-type {
     padding-right: 0;
 }
 
-.bt231 {
+.bt160 {
     height: 152px;
     display: flex;
     align-items: center;
 }
 
-.bt232 {
+.bt161 {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 12px;
 }
 
-.bt232 img {
+.bt161 img {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 12px;
 }
 
-.bt245 {
+.bt195 {
     cursor: pointer;
 }
 
-.bt245 .bt248 path {
+.bt195 .bt198 path {
     fill: #ffffff;
 }
 
-.bt246 {
+.bt196 {
     transition: opacity 0.3s;
 }
 
-.bt247 {
+.bt197 {
     height: 26px;
     display: flex;
     align-items: center;
@@ -1487,19 +1324,19 @@ button {
     justify-content: center;
 }
 
-.bt248 {
+.bt198 {
     height: 26px;
     opacity: 0.5;
     margin-left: 4px;
 }
 
 @media (hover: hover) {
-    .bt245:hover .bt246 {
+    .bt195:hover .bt196 {
         opacity: 0.5;
     }
 }
 
-.bt239 {
+.bt189 {
     color: #ffffff;
     font-size: 22px;
     font-weight: 600;
@@ -1507,27 +1344,27 @@ button {
     margin-bottom: 16px;
 }
 
-.bt240 {
+.bt190 {
     display: flex;
     align-items: center;
 }
 
-.bt241 {
+.bt191 {
     cursor: pointer;
 }
 
-.bt213 {
+.bt142 {
     height: calc(100% - 20px);
     display: flex;
     align-items: center;
 }
 
-.bt214 {
+.bt143 {
     margin: 16px;
     position: relative;
 }
 
-.bt215 {
+.bt144 {
     left: auto;
     right: 0;
     width: 40px;
@@ -1538,27 +1375,27 @@ button {
     justify-content: center;
 }
 
-.bt216 {
+.bt145 {
     left: 0;
     right: auto;
 }
 
-.bt217 {
+.bt146 {
     display: flex;
 }
 
-.bt218 {
+.bt147 {
     width: 20px;
     height: 4px;
     background: rgba(255, 255, 255, 0.5);
     margin-right: 2px;
 }
 
-.bt219 {
+.bt148 {
     background: red;
 }
 
-.bt220 {
+.bt149 {
     color: #ffffff;
     width: 100%;
     height: 100%;
@@ -1569,11 +1406,11 @@ button {
     border-radius: 12px;
 }
 
-.bt221 {
+.bt150 {
     cursor: pointer;
 }
 
-.bt222 {
+.bt151 {
     right: 12px;
     width: 32px;
     border: 1px solid #dfe1e5;
@@ -1590,20 +1427,20 @@ button {
 }
 
 @media (hover: hover) {
-    .bt222:hover {
+    .bt151:hover {
         opacity: 1;
     }
 }
 
-.bt223 {
+.bt152 {
     left: 12px;
 }
 
-.bt223 .bt224 {
+.bt152 .bt153 {
     transform: rotate(-90deg);
 }
 
-.bt224 {
+.bt153 {
     color: #757575;
     cursor: pointer;
     display: flex;
@@ -1613,16 +1450,16 @@ button {
     justify-content: center;
 }
 
-.bt225 {
+.bt154 {
     width: calc(100% - 24px);
 }
 
-.bt226 {
+.bt155 {
     left: 16px;
     width: calc(100% - 32px);
 }
 
-@-webkit-keyframes bt227 {
+@-webkit-keyframes bt156 {
     from {
         width: 0;
     }
@@ -1633,12 +1470,12 @@ button {
 }
 
 @media (max-width: 600px) {
-    .bt214 {
+    .bt143 {
         margin: 16px 8px;
     }
 }
 
-.bt212 {
+.bt141 {
     margin: 16px;
 }
 
@@ -1702,13 +1539,9 @@ button {
     justify-content: center;
 }
 
-.bt10 {
-    max-width: 90%;
-    background-size: contain;
-    background-image: url("undefined");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
+
+
+
 
 .bt11 {
     display: flex;
@@ -1726,12 +1559,13 @@ button {
     height: 24px;
 }
 
-.bt497 .simplebar-scrollbar::before {
+
+.bt410 .simplebar-scrollbar::before {
     opacity: 0;
     background: #000000;
 }
 
-.bt497 .simplebar-scrollbar.simplebar-visible:before {
+.bt410 .simplebar-scrollbar.simplebar-visible:before {
     opacity: 0.5;
 }
 
@@ -1825,12 +1659,12 @@ button {
 }
 
 @media (hover: hover) {
-    .bt49:hover {
+    .bt51:hover {
         cursor: pointer;
     }
 }
 
-.bt958 {
+.bt1245 {
     top: 0;
     color: #FF4E4E;
     right: 3px;
@@ -1844,17 +1678,17 @@ button {
     background-color: #fff;
 }
 
-.bt88 {
+.bt898 {
     position: relative;
 }
 
-.bt89 {
+.bt899 {
     top: -8px;
     left: 16px;
     right: auto;
 }
 
-.bt394 {
+.bt334 {
     color: inherit;
     cursor: pointer;
     display: block;
@@ -1865,60 +1699,60 @@ button {
 }
 
 @media (hover: hover) {
-    .bt394:hover {
+    .bt334:hover {
         opacity: 1;
     }
 }
 
-.bt395 {
+.bt335 {
     display: block;
 }
 
-.bt165 {
+.bt97 {
     width: 16px;
     padding-left: 0;
 }
 
-.bt166 {
+.bt98 {
     color: #98A6B5 !important;
     transform: rotate(180deg);
 }
 
-.bt72 {
+.bt74 {
     display: flex;
 }
 
-.bt62 {
+.bt64 {
     top: 0;
     left: 50%;
     z-index: 1;
     position: absolute;
 }
 
-.bt63 {
+.bt65 {
     transform: scale(0);
 }
 
-.bt64 {
-    animation: bt68 .4s linear forwards;
+.bt66 {
+    animation: bt70 .4s linear forwards;
 }
 
-.bt65 {
+.bt67 {
     transform: scale(1);
 }
 
-.bt66 {
+.bt68 {
     transform: scale(0);
     transition: transform .2s ease-in-out;
 }
 
-.bt67 {
+.bt69 {
     fill: currentColor;
     width: 10px;
     height: 10px;
 }
 
-@-webkit-keyframes bt68 {
+@-webkit-keyframes bt70 {
     40% {
         transform: scale(1.2);
     }
@@ -1936,7 +1770,7 @@ button {
     }
 }
 
-.bt46 {
+.bt48 {
     width: 100%;
     height: 64px;
     display: flex;
@@ -1949,17 +1783,17 @@ button {
     justify-content: space-between;
 }
 
-.bt47 {
+.bt49 {
     flex: 1 1 80px;
 }
 
-.bt48 {
+.bt50 {
     width: 17px;
     display: flex;
     justify-content: center;
 }
 
-.bt48::after {
+.bt50::after {
     width: 1px;
     height: 32px;
     content: "";
@@ -1967,7 +1801,7 @@ button {
     background: #98A6B5;
 }
 
-.bt182 {
+.bt111 {
     cursor: pointer;
     height: 40px;
     display: inline-flex;
@@ -1983,17 +1817,17 @@ button {
     vertical-align: middle;
 }
 
-.bt183 .bt192 {
+.bt112 .bt121 {
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.bt184 {
+.bt113 {
     padding-right: 8px;
 }
 
-.bt185 {
+.bt114 {
     padding: 0;
     overflow: hidden;
     max-width: 256px;
@@ -2001,38 +1835,38 @@ button {
     padding-right: 16px;
 }
 
-.bt185 .bt191 {
+.bt114 .bt120 {
     display: inline-block;
     opacity: 0;
 }
 
-.bt185 .bt192 {
+.bt114 .bt121 {
     top: 0;
     left: 0;
     position: absolute;
     transition: transform 2s;
 }
 
-.bt186 .bt189 {
+.bt115 .bt118 {
     color: #ffffff;
 }
 
-.bt186:hover .bt189 {
+.bt115:hover .bt118 {
     color: #ffffff;
 }
 
-.bt187 {
+.bt116 {
     height: 32px;
     font-size: 12px;
     line-height: 32px;
 }
 
-.bt188 {
+.bt117 {
     cursor: default;
     opacity: 0.3;
 }
 
-.bt189 {
+.bt118 {
     flex: 0 0 auto;
     color: #98A6B5;
     height: 24px;
@@ -2045,31 +1879,31 @@ button {
     padding-right: 5px;
 }
 
-.bt190 {
+.bt119 {
     flex: 1;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.bt191 {
+.bt120 {
     display: none;
 }
 
-.bt192 {
+.bt121 {
     width: 100%;
     display: inline-block;
     z-index: 1;
     white-space: nowrap;
 }
 
-.bt193 {
+.bt122 {
     display: flex;
     align-items: center;
     padding-left: 0;
 }
 
-.bt194 {
+.bt123 {
     color: rgba(255, 255, 255, 0.5);
     padding: 2px 6px;
     font-size: 10px;
@@ -2079,17 +1913,17 @@ button {
     border-radius: 8px;
 }
 
-.bt196 {
+.bt125 {
     margin-left: 4px;
     margin-right: 4px;
 }
 
-.bt831 {
+.bt859 {
     position: relative;
     font-size: 12px;
 }
 
-.bt832 {
+.bt860 {
     color: #ffffff;
     width: 100%;
     cursor: pointer;
@@ -2107,7 +1941,7 @@ button {
     justify-content: space-between;
 }
 
-.bt833 {
+.bt861 {
     top: 36px;
     left: 0;
     color: #ffffff;
@@ -2121,7 +1955,7 @@ button {
     margin-bottom: 8px;
 }
 
-.bt833:before {
+.bt861:before {
     top: 0;
     left: 0;
     right: 0;
@@ -2133,7 +1967,7 @@ button {
     border-radius: inherit;
 }
 
-.bt833:after {
+.bt861:after {
     top: 0;
     left: 0;
     right: 0;
@@ -2145,7 +1979,7 @@ button {
     pointer-events: none;
 }
 
-.bt834 {
+.bt862 {
     color: inherit;
     font-size: 12px;
     font-weight: 600;
@@ -2154,17 +1988,18 @@ button {
     text-transform: capitalize;
 }
 
-.bt834:not(:last-child) {
+.bt862:not(:last-child) {
     margin-bottom: 8px;
 }
 
 @media (hover: hover) {
-    .bt834:hover {
+    .bt862:hover {
         cursor: pointer;
     }
 }
 
-.bt828 {
+
+.bt856 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -2173,7 +2008,7 @@ button {
     justify-content: center;
 }
 
-.bt829 {
+.bt857 {
     color: #ffffff;
     opacity: 0.5;
     font-size: 12px;
@@ -2185,23 +2020,23 @@ button {
     text-transform: uppercase;
 }
 
-.bt830 {
+.bt858 {
     width: 168px;
     z-index: 2;
 }
 
-.bt826 {
+.bt854 {
     margin: 40px auto 96px;
     z-index: 0;
     max-width: 50%;
 }
 
-.bt827 {
+.bt855 {
     margin-bottom: 160px;
 }
 
 @media (max-width: 600px) {
-    .bt826 {
+    .bt854 {
         padding: 0 16px;
         max-width: 100%;
         box-sizing: border-box;
@@ -2209,15 +2044,15 @@ button {
     }
 }
 
-.bt822 {
+.bt850 {
     max-width: 100%;
 }
 
-.bt822 .bt824 {
+.bt850 .bt852 {
     padding: 0 16px;
 }
 
-.bt824 {
+.bt852 {
     color: #ffffff;
     opacity: 0.5;
     font-size: 12px;
@@ -2227,53 +2062,53 @@ button {
     line-height: 18px;
 }
 
-.bt825 {
+.bt853 {
     display: inline-block;
 }
 
-.bt1297 {
+.bt1185 {
     display: inline-block;
     transition: opacity 0.5s;
     pointer-events: auto;
 }
 
-.bt1298 {
+.bt1186 {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bt1299 {
+.bt1187 {
     cursor: default;
     opacity: 0.2;
 }
 
-.bt1300 {
+.bt1188 {
     margin-left: 4px;
 }
 
 @media (hover: hover) {
-    .bt1297:not(.bt1299):hover {
+    .bt1185:not(.bt1187):hover {
         opacity: 0.5;
     }
 
-    .bt1301:not(.bt1299):hover {
+    .bt1189:not(.bt1187):hover {
         opacity: 1;
     }
 }
 
-.bt449 {
+.bt389 {
     text-align: left;
     padding-left: 8px;
 }
 
-.bt450 {
+.bt390 {
     display: flex;
     align-items: flex-end;
 }
 
-.bt451 {
+.bt391 {
     flex: 1;
     color: rgba(255, 255, 255, 0.3);
     height: 40px;
@@ -2287,7 +2122,7 @@ button {
     border-radius: 8px;
 }
 
-.bt452 {
+.bt392 {
     flex: 1;
     color: #ffffff;
     height: 40px;
@@ -2305,28 +2140,28 @@ button {
 }
 
 @media (hover: hover) {
-    .bt452:hover {
+    .bt392:hover {
         color: #ffffff;
         background: rgba(46, 48, 54, 0.7);
         border-color: rgba(46, 48, 54, 0.7);
     }
 }
 
-.bt486 {
+.bt399 {
     position: relative;
 }
 
-.bt491 {
+.bt404 {
     opacity: 0;
     transform: scaleY(0);
 }
 
-.bt492 {
+.bt405 {
     opacity: 0;
     transform: scaleX(0);
 }
 
-.bt444 {
+.bt384 {
     color: #ffffff;
     width: 32px;
     cursor: pointer;
@@ -2342,84 +2177,84 @@ button {
     justify-content: center;
 }
 
-.bt445 {
+.bt385 {
     opacity: 0.5;
 }
 
 @media (hover: hover) {
-    .bt444:hover {
+    .bt384:hover {
         color: #ffffff;
         cursor: pointer;
         background: rgba(46, 48, 54, 0.7);
         border-color: rgba(46, 48, 54, 0.7);
     }
 
-    .bt444:hover .bt445 {
+    .bt384:hover .bt385 {
         opacity: 1;
         transition: opacity 0.3s;
     }
 }
 
-.bt446 {
+.bt386 {
     height: 40px;
 }
 
-.bt447 {
+.bt387 {
     padding-bottom: 8px;
 }
 
-.bt448 {
+.bt388 {
     max-height: 302px;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
 
-.bt397 {
+.bt337 {
     cursor: pointer;
     display: block;
     vertical-align: middle;
 }
 
-.bt397 svg {
+.bt337 svg {
     display: block;
     opacity: 0.4;
     transition: opacity 0.3s;
 }
 
-.bt397.bt398 svg {
+.bt337.bt338 svg {
     opacity: 1;
 }
 
-.bt399 {
+.bt339 {
     opacity: 0.4;
 }
 
-.bt400 {
+.bt340 {
     opacity: 1;
-    animation: bt404 0.55s linear both;
+    animation: bt344 0.55s linear both;
 }
 
-.bt401 {
+.bt341 {
     cursor: default;
     opacity: 0.3;
 }
 
-.bt402 {
+.bt342 {
     opacity: 1;
 }
 
-.bt403 {
+.bt343 {
     opacity: 0.4;
-    animation: bt405 0.55s linear both;
+    animation: bt345 0.55s linear both;
 }
 
 @media (hover: hover) {
-    .bt397:not(.bt401):hover svg {
+    .bt337:not(.bt341):hover svg {
         opacity: 1;
     }
 }
 
-@-webkit-keyframes bt404 {
+@-webkit-keyframes bt344 {
     0% {
         transform: scale(1);
     }
@@ -2441,7 +2276,7 @@ button {
     }
 }
 
-@-webkit-keyframes bt405 {
+@-webkit-keyframes bt345 {
     0% {
         transform: scale(1);
     }
@@ -2463,7 +2298,7 @@ button {
     }
 }
 
-.bt428 {
+.bt368 {
     flex: 0 0 auto;
     color: inherit;
     display: flex;
@@ -2472,7 +2307,7 @@ button {
     justify-content: center;
 }
 
-.bt429 .bt431 {
+.bt369 .bt371 {
     width: auto;
     border: none;
     padding: 0;
@@ -2481,7 +2316,7 @@ button {
     line-height: 24px;
 }
 
-.bt430 {
+.bt370 {
     flex: 1;
     display: flex;
     align-items: flex-end;
@@ -2489,30 +2324,30 @@ button {
     justify-content: space-between;
 }
 
-.bt430 span {
+.bt370 span {
     flex: 1;
     opacity: 1;
 }
 
-.bt432 {
+.bt372 {
     margin-bottom: 8px;
 }
 
-.bt434 {
+.bt374 {
     margin: 0 4px;
 }
 
-.bt435 {
+.bt375 {
     font-size: 16px;
     font-weight: 600;
     flex-direction: row;
 }
 
-.bt435 .bt432 {
+.bt375 .bt372 {
     margin-bottom: 0;
 }
 
-.bt420 {
+.bt360 {
     height: 24px;
     display: flex;
     position: relative;
@@ -2521,7 +2356,7 @@ button {
     line-height: 24px;
 }
 
-.bt421 {
+.bt361 {
     color: inherit;
     width: 100%;
     display: inline-block;
@@ -2532,23 +2367,23 @@ button {
     vertical-align: middle;
 }
 
-.bt422 {
+.bt362 {
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     margin-right: 8px;
 }
 
-.bt426 {
+.bt366 {
     display: flex;
     align-items: center;
 }
 
-.bt427:not(:first-of-type) {
+.bt367:not(:first-of-type) {
     margin-left: 6px;
 }
 
-.bt414 {
+.bt354 {
     flex: 1;
     display: flex;
     overflow: hidden;
@@ -2556,48 +2391,48 @@ button {
     box-sizing: border-box;
 }
 
-.bt415 {
+.bt355 {
     flex: 1;
     font-weight: 600;
 }
 
-.bt416 {
+.bt356 {
     display: flex;
     align-items: center;
 }
 
-.bt417 {
+.bt357 {
     flex: 1;
 }
 
-.bt418 {
+.bt358 {
     margin-right: 12px;
 }
 
-.bt419 {
+.bt359 {
     flex: 0 0 auto;
     font-weight: 600;
 }
 
-.bt363 {
+.bt303 {
     height: 204px;
     position: relative;
     direction: ltr;
     vertical-align: top;
 }
 
-.bt364 {
+.bt304 {
     z-index: 9;
 }
 
-.bt364 .bt365 {
+.bt304 .bt305 {
     top: 0;
     left: 0;
     position: absolute;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.65);
 }
 
-.bt365 {
+.bt305 {
     color: #ffffff;
     width: 100%;
     border: 1px solid transparent;
@@ -2610,43 +2445,43 @@ button {
     border-radius: 8px;
 }
 
-.bt366 {
+.bt306 {
     display: flex;
     margin-top: 12px;
     pointer-events: none;
 }
 
-.bt367 {
+.bt307 {
     height: 16px;
     display: flex;
     pointer-events: none;
 }
 
-.bt368 {
+.bt308 {
     flex: 0 0 auto;
     display: flex;
 }
 
-.bt369 {
+.bt309 {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.bt370 {
+.bt310 {
     display: flex;
     align-items: center;
     margin-left: 4px;
     pointer-events: auto;
 }
 
-.bt371 {
+.bt311 {
     flex: 0 0 auto;
     margin-left: 0;
     margin-right: 8px;
 }
 
-.bt372 {
+.bt312 {
     display: flex;
     position: relative;
     font-size: 10px;
@@ -2654,7 +2489,7 @@ button {
     padding-right: 8px;
 }
 
-.bt373 {
+.bt313 {
     font-size: 12px;
     word-break: break-all;
     line-height: 16px;
@@ -2662,25 +2497,25 @@ button {
     vertical-align: middle;
 }
 
-.bt374 {
+.bt314 {
     margin: 0 0 0 4px;
     display: flex;
     align-items: center;
 }
 
-.bt375 {
+.bt315 {
     width: 100%;
     line-height: 16px;
 }
 
-.bt375>a {
+.bt315>a {
     color: #ffffff !important;
     height: 16px;
     line-height: 16px;
     text-decoration: none !important;
 }
 
-.bt376 {
+.bt316 {
     flex: 1;
     color: #ffffff;
     height: 16px;
@@ -2694,37 +2529,37 @@ button {
     line-height: 16px;
 }
 
-.bt376:last-of-type {
+.bt316:last-of-type {
     flex: 0 0 auto;
     padding: 0;
     margin-left: auto;
     justify-content: flex-end;
 }
 
-.bt377 {
+.bt317 {
     display: block;
     align-items: center;
     pointer-events: auto;
     vertical-align: middle;
 }
 
-.bt377:not(:empty) {
+.bt317:not(:empty) {
     margin-left: 16px;
 }
 
-.bt377:not(:empty):first-child {
+.bt317:not(:empty):first-child {
     margin-left: 0;
 }
 
-.bt378 svg {
+.bt318 svg {
     opacity: 0.3;
 }
 
-.bt379 {
+.bt319 {
     opacity: 0.3;
 }
 
-.bt380 {
+.bt320 {
     color: #ffffff;
     border: none;
     cursor: pointer;
@@ -2738,7 +2573,7 @@ button {
     text-decoration: none;
 }
 
-.bt381 {
+.bt321 {
     height: 36px;
     font-size: 16px;
     margin-top: 32px;
@@ -2747,17 +2582,17 @@ button {
     line-height: 24px;
 }
 
-.bt382 {
+.bt322 {
     margin-right: 6px;
     vertical-align: bottom;
 }
 
-.bt355 {
+.bt295 {
     gap: 16px;
     display: grid;
 }
 
-.bt356 {
+.bt296 {
     grid-template-areas:
         "none widget"
         "none widget"
@@ -2766,11 +2601,11 @@ button {
     grid-template-columns: 1fr 1fr;
 }
 
-.bt356 .bt361 {
+.bt296 .bt301 {
     grid-area: widget;
 }
 
-.bt357 {
+.bt297 {
     grid-template-areas:
         "none none widget"
         "none none widget"
@@ -2779,11 +2614,11 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.bt357 .bt361 {
+.bt297 .bt301 {
     grid-area: widget;
 }
 
-.bt358 {
+.bt298 {
     grid-template-areas:
         "none none none widget"
         "none none none widget"
@@ -2792,15 +2627,15 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.bt358 .bt361 {
+.bt298 .bt301 {
     grid-area: widget;
 }
 
-.bt359 {
+.bt299 {
     position: relative;
 }
 
-.bt359::before {
+.bt299::before {
     top: 0;
     left: 0;
     width: 100%;
@@ -2811,60 +2646,95 @@ button {
     position: absolute;
 }
 
-.bt360 {
+.bt300 {
     min-width: 0;
     justify-self: stretch;
 }
 
-.bt361 {
+.bt301 {
     height: 644px;
     display: flex;
     justify-content: center;
 }
 
-.bt362 {
+.bt302 {
     margin: 16px 0 0;
 }
 
-.bt353 {
+.bt293 {
     display: flex;
     margin-top: 16px;
     justify-content: center;
 }
 
-.bt354 {
+.bt294 {
     width: 100%;
     max-width: 213px;
 }
 
-.bt256 {
+.bt206 {
     cursor: default;
     opacity: 0.3;
 }
 
-.bt252 {
+.bt202 {
     position: relative;
 }
 
-.bt253 {
+.bt203 {
     display: flex;
     flex-wrap: nowrap;
 }
 
-.bt251 {
+.bt201 {
     transition: color 0.3s;
     padding-left: 8px;
 }
 
-.bt237 {
+.bt187 {
     margin-top: 24px;
 }
 
-.bt238 {
+.bt188 {
     margin-bottom: 16px;
 }
 
-.bt1537 {
+.bt510 {
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 32px;
+    margin: 16px 0 0;
+    display: flex;
+    opacity: 1;
+    padding: 16px;
+    font-size: 12px;
+    background: #24262B;
+    box-sizing: border-box;
+    transition: opacity 0.5s;
+    align-items: center;
+    font-weight: 600;
+    border-color: #24262B;
+    border-radius: 8px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (hover: hover) {
+    .bt510:hover {
+        opacity: 0.5;
+    }
+}
+
+.bt511 {
+    margin-right: 4px;
+}
+
+.bt509 {
+    margin: 0;
+}
+
+.bt1454 {
     color: #ffffff;
     background: #2e3036;
     font-weight: 600;
@@ -2872,21 +2742,21 @@ button {
     border-radius: 8px;
 }
 
-.bt1538 {
+.bt1455 {
     color: #ffffff;
     background: #3BC116;
     border-color: #3BC116;
 }
 
-.bt1538 .bt1543 {
+.bt1455 .bt1460 {
     color: #ffffff;
 }
 
-.bt1539 .bt1543 {
+.bt1456 .bt1460 {
     color: #ffffff;
 }
 
-.bt1540 {
+.bt1457 {
     color: #ffffff;
     background: #2e3036;
     font-weight: 600;
@@ -2894,119 +2764,119 @@ button {
     border-radius: 8px;
 }
 
-.bt1541 {
+.bt1458 {
     color: #ffffff;
     background: #3BC116;
     border-color: #3BC116;
 }
 
-.bt1541 .bt1544 {
+.bt1458 .bt1461 {
     color: #ffffff;
 }
 
-.bt1542 .bt1544 {
+.bt1459 .bt1461 {
     color: #ffffff;
 }
 
-.bt1543 {
+.bt1460 {
     color: #ffffff;
 }
 
-.bt1544 {
+.bt1461 {
     color: #ffffff;
 }
 
 @media (hover: hover) {
-    .bt1537:hover:not(.bt1538):not(.bt1539) {
+    .bt1454:hover:not(.bt1455):not(.bt1456) {
         color: #ffffff;
         background: rgba(46, 48, 54, 0.7);
         border-color: rgba(46, 48, 54, 0.7);
     }
 
-    .bt1537:hover:not(.bt1538):not(.bt1539) .bt1543 {
+    .bt1454:hover:not(.bt1455):not(.bt1456) .bt1460 {
         color: #ffffff;
     }
 
-    .bt1538:hover:not(.bt1539) {
+    .bt1455:hover:not(.bt1456) {
         color: #ffffff;
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt1538:hover:not(.bt1539) .bt1543 {
+    .bt1455:hover:not(.bt1456) .bt1460 {
         color: #ffffff;
     }
 
-    .bt1540:hover:not(.bt1538):not(.bt1541):not(.bt1539) {
+    .bt1457:hover:not(.bt1455):not(.bt1458):not(.bt1456) {
         color: #ffffff;
         background: rgba(46, 48, 54, 0.7);
         border-color: rgba(46, 48, 54, 0.7);
     }
 
-    .bt1540:hover:not(.bt1538):not(.bt1541):not(.bt1539) .bt1544 {
+    .bt1457:hover:not(.bt1455):not(.bt1458):not(.bt1456) .bt1461 {
         color: #ffffff;
     }
 
-    .bt1541:hover:not(.bt1539) {
+    .bt1458:hover:not(.bt1456) {
         color: #ffffff;
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt1541:hover:not(.bt1539) .bt1544 {
+    .bt1458:hover:not(.bt1456) .bt1461 {
         color: #ffffff;
     }
 }
 
-.bt1736 {
+.bt1713 {
     position: relative;
 }
 
-.bt1737 {
+.bt1714 {
     width: 100%;
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
-.bt1737::-webkit-scrollbar {
+.bt1714::-webkit-scrollbar {
     display: none;
 }
 
-.bt1738 {
+.bt1715 {
     padding-bottom: 30px;
 }
 
-.bt198 {
+.bt127 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bt199 {
+.bt128 {
     color: #f5a623;
 }
 
-.bt202 {
+.bt131 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bt203 {
+.bt132 {
     color: #BC4EFF;
 }
 
-.bt206 {
+.bt135 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bt207 {
+.bt136 {
     color: #67B6FF;
     opacity: 1;
 }
 
-.bt174 {
+.bt103 {
     display: flex;
 }
 
-.bt175 {
+.bt104 {
     color: rgba(255, 255, 255, 0.7);
     height: 32px;
     font-size: 12px;
@@ -3019,35 +2889,35 @@ button {
     text-transform: uppercase;
 }
 
-.bt175:last-of-type {
+.bt104:last-of-type {
     margin-right: 0;
 }
 
-.bt176 {
+.bt105 {
     color: #ffffff;
     background: #2e3036;
 }
 
-.bt177 {
+.bt106 {
     height: 40px;
 }
 
-.bt178 {
+.bt107 {
     margin-left: 8px;
     padding-right: 9px;
 }
 
-.bt178 svg {
+.bt107 svg {
     display: block;
 }
 
 @media (hover:hover) {
-    .bt175:not(.bt176):hover {
+    .bt104:not(.bt105):hover {
         background: #2e3036;
     }
 }
 
-.bt209 {
+.bt138 {
     flex: 1;
     width: 100%;
     display: flex;
@@ -3056,38 +2926,38 @@ button {
     flex-direction: column;
 }
 
-.bt210 {
+.bt139 {
     flex: 1;
     padding: 0 16px;
     box-sizing: border-box;
 }
 
-.bt211 {
+.bt140 {
     padding: 16px 0 0 16px;
     box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
-    .bt210 {
+    .bt139 {
         padding: 0 8px;
     }
 
-    .bt211 {
+    .bt140 {
         padding: 16px 0 0 8px;
     }
 }
 
-.bt45:not(:empty) {
+.bt47:not(:empty) {
     margin: 16px 16px 0;
 }
 
 @media (max-width: 600px) {
-    .bt45:not(:empty) {
+    .bt47:not(:empty) {
         margin: 16px 8px 0;
     }
 }
 
-.bt1279 {
+.bt1167 {
     width: calc(100% + 8px);
     height: 32px;
     display: flex;
@@ -3095,26 +2965,26 @@ button {
     flex-wrap: wrap;
 }
 
-.bt1282 {
+.bt1170 {
     cursor: not-allowed;
 }
 
-.bt1282 .bt1280 {
+.bt1170 .bt1168 {
     pointer-events: none;
 }
 
-.bt1277 {
+.bt1165 {
     flex: 1;
     display: inline-flex;
     overflow: visible;
     justify-content: flex-end;
 }
 
-.bt1278 {
+.bt1166 {
     transform-origin: center right;
 }
 
-.bt1269 {
+.bt1157 {
     color: #ffffff;
     border: 1px solid transparent;
     cursor: text;
@@ -3132,15 +3002,15 @@ button {
     border-radius: 6px 6px 6px 6px;
 }
 
-.bt1269 .bt1275,
-.bt1269 .bt1275:focus {
+.bt1157 .bt1163,
+.bt1157 .bt1163:focus {
     color: #ffffff;
     background: #1c1e22;
     box-shadow: none;
     padding-left: 0;
 }
 
-.bt1270 {
+.bt1158 {
     color: #ffffff;
     border: 1px solid #2b2e35;
     font-size: 16px;
@@ -3150,11 +3020,11 @@ button {
     border-radius: 6px 6px 6px 6px;
 }
 
-.bt1270 .bt1275 {
+.bt1158 .bt1163 {
     box-sizing: content-box;
 }
 
-.bt1270 .bt1272 {
+.bt1158 .bt1160 {
     color: #ffffff;
     opacity: 0.5;
     font-size: 13px;
@@ -3162,42 +3032,42 @@ button {
     margin-right: 4px;
 }
 
-.bt1270 .bt1273 {
+.bt1158 .bt1161 {
     font-size: 16px;
     margin-left: 4px;
 }
 
-.bt1270 .bt1275,
-.bt1270 .bt1275:focus {
+.bt1158 .bt1163,
+.bt1158 .bt1163:focus {
     color: #ffffff !important;
     background: transparent;
 }
 
-.bt1270.bt1271 .bt1275,
-.bt1270.bt1271 .bt1275:focus {
+.bt1158.bt1159 .bt1163,
+.bt1158.bt1159 .bt1163:focus {
     background: transparent;
 }
 
-.bt1271 {
+.bt1159 {
     opacity: 0.5;
     pointer-events: none;
 }
 
-.bt1272 {
+.bt1160 {
     font-style: normal;
     margin-right: 8px;
 }
 
-.bt1273 {
+.bt1161 {
     margin-left: 4px;
     margin-right: 8px;
 }
 
-.bt1274 .bt1275 {
+.bt1162 .bt1163 {
     padding-right: 8px;
 }
 
-.bt1275 {
+.bt1163 {
     font: inherit !important;
     border: 1px solid transparent;
     display: inline-block;
@@ -3213,35 +3083,35 @@ button {
     -webkit-appearance: none;
 }
 
-.bt1275:focus {
+.bt1163:focus {
     outline: none !important;
 }
 
-.bt1275::-webkit-inner-spin-button {
+.bt1163::-webkit-inner-spin-button {
     margin: 0;
     -webkit-appearance: none;
 }
 
-.bt1275::-webkit-outer-spin-button {
+.bt1163::-webkit-outer-spin-button {
     margin: 0;
     -webkit-appearance: none;
 }
 
-.bt1440 {
+.bt1552 {
     width: 100%;
     font-size: 11px;
     line-height: 13px;
 }
 
-.bt1441 .bt1442 {
+.bt1553 .bt1554 {
     font-size: 14px;
 }
 
-.bt1441 .bt1444 {
+.bt1553 .bt1556 {
     margin-top: 8px;
 }
 
-.bt1442 {
+.bt1554 {
     color: #ffffff;
     width: 100%;
     border: none;
@@ -3254,28 +3124,28 @@ button {
     border-radius: 6px;
 }
 
-.bt1442::placeholder {
+.bt1554::placeholder {
     color: #ffffff;
     opacity: 0.5;
     text-align: center;
 }
 
-.bt1443 {
+.bt1555 {
     color: #FF4E4E;
     text-align: center;
     line-height: 13px;
 }
 
-.bt1444 {
+.bt1556 {
     margin-top: 12px;
 }
 
-.bt1432 {
+.bt1544 {
     flex: 1;
     position: relative;
 }
 
-.bt1433 {
+.bt1545 {
     color: #ffffff;
     display: flex;
     padding: 24px 16px 40px;
@@ -3284,93 +3154,93 @@ button {
     flex-direction: column;
 }
 
-.bt1434 {
+.bt1546 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bt1435 {
+.bt1547 {
     min-width: 48px;
     margin-right: 16px;
 }
 
-.bt1436 {
+.bt1548 {
     display: flex;
     flex-direction: column;
 }
 
-.bt1437 {
+.bt1549 {
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
 }
 
-.bt1438 {
+.bt1550 {
     font-size: 12px;
     margin-top: 8px;
     font-weight: 600;
     line-height: 16px;
 }
 
-.bt1439 {
+.bt1551 {
     width: 240px;
     margin: 24px auto 0;
 }
 
-.bt1258 {
+.bt1146 {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-.bt1259 .bt1268 {
+.bt1147 .bt1156 {
     margin-left: 8px;
 }
 
-.bt1260 {
+.bt1148 {
     flex: 0 0 0px;
     opacity: 0;
 }
 
-.bt1261 {
+.bt1149 {
     flex: 0 0 100px;
     opacity: 1;
     transition: .3s linear;
     transition-property: flex, opacity;
 }
 
-.bt1262 {
+.bt1150 {
     flex: 0 0 100px;
     opacity: 1;
 }
 
-.bt1263 {
+.bt1151 {
     flex: 0 0 0px;
     opacity: 0;
     transition: .3s linear;
     transition-property: flex, opacity;
 }
 
-.bt1264 {
+.bt1152 {
     width: 0;
 }
 
-.bt1265 {
+.bt1153 {
     width: 100px;
     transition: width .3s linear;
 }
 
-.bt1266 {
+.bt1154 {
     width: 100px;
 }
 
-.bt1267 {
+.bt1155 {
     width: 0;
     transition: width .3s linear;
 }
 
-.bt1268 {
+.bt1156 {
     flex: 1;
     width: 100%;
     overflow: hidden;
@@ -3378,7 +3248,7 @@ button {
     white-space: nowrap;
 }
 
-.bt1509 {
+.bt1621 {
     color: #ffffff;
     height: 13px;
     display: flex;
@@ -3393,14 +3263,14 @@ button {
     border-bottom-left-radius: 6px;
 }
 
-.bt1510 {
+.bt1622 {
     color: #ffffff;
     background: #41BC2C;
     padding-left: 4px;
     padding-right: 6px;
 }
 
-.bt1511 {
+.bt1623 {
     color: #ffffff;
     background: #3BC116;
     padding-left: 6px;
@@ -3408,7 +3278,7 @@ button {
     border-bottom-left-radius: 6px;
 }
 
-.bt1495 {
+.bt1607 {
     color: #ffffff;
     display: flex;
     z-index: 1;
@@ -3418,31 +3288,31 @@ button {
     border-radius: 6px;
 }
 
-.bt1496 {
+.bt1608 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.bt1496.bt1497 .bt1507 {
+.bt1608.bt1609 .bt1619 {
     padding: 16px 8px 16px 16px;
 }
 
-.bt1496.bt1497 .bt1508 {
+.bt1608.bt1609 .bt1620 {
     top: 12px;
 }
 
-.bt1496 .bt1507 {
+.bt1608 .bt1619 {
     padding: 8px 16px 16px;
 }
 
-.bt1497 {
+.bt1609 {
     border: 2px solid #41BC2C;
 }
 
-.bt1498 {
+.bt1610 {
     padding-left: 40px;
 }
 
-.bt1499 {
+.bt1611 {
     top: 0;
     left: 0;
     width: 40px;
@@ -3452,29 +3322,29 @@ button {
     border-bottom-left-radius: 4px;
 }
 
-.bt1500 .bt1506,
-.bt1500 .bt1505,
-.bt1500 .bt1502,
-.bt1500 .bt1504 {
+.bt1612 .bt1618,
+.bt1612 .bt1617,
+.bt1612 .bt1614,
+.bt1612 .bt1616 {
     opacity: 0.5;
 }
 
-.bt1501 {
+.bt1613 {
     display: flex;
 }
 
-.bt1505 {
+.bt1617 {
     top: -2px;
     right: -2px;
     z-index: 2;
     position: absolute;
 }
 
-.bt1506 {
+.bt1618 {
     margin-bottom: 12px;
 }
 
-.bt1507 {
+.bt1619 {
     flex: 1;
     padding: 10px 8px;
     font-size: 12px !important;
@@ -3484,7 +3354,7 @@ button {
     pointer-events: none;
 }
 
-.bt1508 {
+.bt1620 {
     top: 4px;
     color: #ffffff;
     right: 4px;
@@ -3493,62 +3363,62 @@ button {
     position: absolute;
 }
 
-.bt1445 {
+.bt1557 {
     position: relative;
 }
 
-.bt1446 .bt1457 {
+.bt1558 .bt1569 {
     margin-top: 0;
 }
 
-.bt1446 .bt1451 {
+.bt1558 .bt1563 {
     margin-left: 16px;
     margin-right: 16px;
 }
 
-.bt1446 .bt1449 {
+.bt1558 .bt1561 {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.bt1447 {
+.bt1559 {
     margin-top: 16px;
 }
 
-.bt1448 {
+.bt1560 {
     padding: 24px 16px;
 }
 
-.bt1449 {
+.bt1561 {
     margin: 8px 4px 0;
 }
 
-.bt1450 {
+.bt1562 {
     margin: 0;
 }
 
-.bt1451 {
+.bt1563 {
     margin: 16px 8px 0;
 }
 
-.bt1452 {
+.bt1564 {
     transform: translateY(0);
     transition: transform .3s;
 }
 
-.bt1453 {
+.bt1565 {
     transform: translateY(0);
 }
 
-.bt1454 {
+.bt1566 {
     transform: translateY(15px);
     transition: transform .2s;
 }
 
-.bt1455 {
+.bt1567 {
     margin-bottom: 16px;
 }
 
-.bt1456 {
+.bt1568 {
     top: 0;
     right: 0;
     width: 100%;
@@ -3559,16 +3429,16 @@ button {
     box-sizing: border-box;
 }
 
-.bt1457 {
+.bt1569 {
     margin-top: 8px;
 }
 
-.bt1416 {
+.bt1528 {
     display: flex;
     flex-direction: column;
 }
 
-.bt1417 {
+.bt1529 {
     display: flex;
     z-index: 3;
     overflow: auto;
@@ -3576,27 +3446,27 @@ button {
     -webkit-overflow-scrolling: touch;
 }
 
-.bt1417::-webkit-scrollbar {
+.bt1529::-webkit-scrollbar {
     width: 8px;
     background-color: rgba(0, 0, 0, 0.15);
     -webkit-border-radius: 100px;
 }
 
-.bt1417::-webkit-scrollbar-thumb:vertical {
+.bt1529::-webkit-scrollbar-thumb:vertical {
     background: rgba(255, 255, 255, 0.15);
     -webkit-border-radius: 100px;
 }
 
-.bt1417::-webkit-scrollbar-thumb:vertical:active {
+.bt1529::-webkit-scrollbar-thumb:vertical:active {
     background: rgba(255, 255, 255, 0.15);
     -webkit-border-radius: 100px;
 }
 
-.bt1417::-webkit-scrollbar:hover {
+.bt1529::-webkit-scrollbar:hover {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.bt1418 {
+.bt1530 {
     flex: 1;
     display: flex;
     position: relative;
@@ -3604,74 +3474,74 @@ button {
     flex-direction: column;
 }
 
-.bt1419 {
+.bt1531 {
     min-height: 169px;
 }
 
-.bt1420 {
+.bt1532 {
     display: flex;
     overflow: hidden;
     max-height: 105px;
     flex-direction: column;
 }
 
-.bt1420.bt1419 {
+.bt1532.bt1531 {
     max-height: initial;
 }
 
-.bt1421 {
+.bt1533 {
     transform: translateY(-100%);
     will-change: transform;
 }
 
-.bt1422 {
+.bt1534 {
     transform: translateY(0);
     transition: transform .3s ease-in-out;
 }
 
-.bt1423 {
+.bt1535 {
     transform: translateY(0);
 }
 
-.bt1424 {
+.bt1536 {
     transform: translateY(-100%);
     transition: transform .2s ease-in-out;
 }
 
-.bt1425 {
+.bt1537 {
     top: 0;
     position: absolute;
     min-width: 100%;
 }
 
-.bt1426 {
+.bt1538 {
     opacity: 0;
     pointer-events: none;
 }
 
-.bt1427 {
+.bt1539 {
     opacity: 1;
     transition: opacity .3s linear;
     pointer-events: auto;
 }
 
-.bt1428 {
+.bt1540 {
     opacity: 1;
     pointer-events: auto;
 }
 
-.bt1429 {
+.bt1541 {
     opacity: 0;
     transition: opacity .2s linear;
     pointer-events: none;
 }
 
-.bt1430 {
+.bt1542 {
     flex: 1;
     z-index: 1;
 }
 
-.bt1431 {
+.bt1543 {
     width: 100%;
     height: 100%;
     z-index: 4;
@@ -3679,17 +3549,17 @@ button {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.bt1409 {
+.bt1521 {
     overflow: hidden;
     position: relative;
 }
 
-.bt1410 {
+.bt1522 {
     overflow: auto;
     overflow-x: hidden;
 }
 
-.bt1411 {
+.bt1523 {
     top: 0;
     left: 0;
     width: 100%;
@@ -3698,20 +3568,20 @@ button {
     position: absolute;
 }
 
-.bt1412 {
+.bt1524 {
     opacity: 0;
 }
 
-.bt1413 {
+.bt1525 {
     opacity: 1;
     transition: opacity 300ms ease-in-out;
 }
 
-.bt1414 {
+.bt1526 {
     opacity: 1;
 }
 
-.bt1415 {
+.bt1527 {
     top: 0;
     width: 100%;
     opacity: 0;
@@ -3719,7 +3589,7 @@ button {
     transition: opacity 300ms ease-in-out;
 }
 
-.bt1726:not(:empty) {
+.bt1703:not(:empty) {
     width: 100%;
     height: 32px;
     display: flex;
@@ -3731,14 +3601,14 @@ button {
     justify-content: center;
 }
 
-.bt1727 {
+.bt1704 {
     fill: #7ed321;
     width: 22px;
     height: auto;
     margin-right: 8px;
 }
 
-.bt1728 {
+.bt1705 {
     color: #ffffff;
     border: none;
     height: 32px;
@@ -3757,21 +3627,21 @@ button {
 }
 
 @media (hover: hover) {
-    .bt1728 {
+    .bt1705 {
         cursor: pointer;
         transition: background 0.3s;
     }
 
-    .bt1728:hover {
+    .bt1705:hover {
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 }
 
-.bt1729 {
+.bt1706 {
     height: 32px;
     display: flex;
-    animation: bt1731 0.5s;
+    animation: bt1708 0.5s;
     font-size: 12px;
     align-items: center;
     font-weight: 600;
@@ -3779,13 +3649,13 @@ button {
     justify-content: center;
 }
 
-.bt1730 {
+.bt1707 {
     fill: currentColor;
     color: #7ed321;
     margin-right: 8px;
 }
 
-@-webkit-keyframes bt1731 {
+@-webkit-keyframes bt1708 {
     from {
         opacity: 0;
     }
@@ -3795,7 +3665,7 @@ button {
     }
 }
 
-.bt1710 {
+.bt1687 {
     color: #ffffff;
     border: none;
     display: flex;
@@ -3809,33 +3679,33 @@ button {
     text-transform: uppercase;
 }
 
-.bt1710 svg {
+.bt1687 svg {
     fill: #3BC116;
     margin-right: 6px;
 }
 
 @media (hover: hover) {
-    .bt1710 {
+    .bt1687 {
         cursor: pointer;
     }
 
-    .bt1710:hover {
+    .bt1687:hover {
         opacity: 0.75;
         transition: opacity 0.3s;
     }
 }
 
-.bt1719 {
+.bt1696 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.bt1720 {
+.bt1697 {
     display: flex;
 }
 
-.bt1721 {
+.bt1698 {
     flex: 1;
     display: flex;
     position: relative;
@@ -3844,12 +3714,12 @@ button {
     flex-direction: column;
 }
 
-.bt1722 {
+.bt1699 {
     width: 4px;
     margin: 0 4px;
     display: flex;
     opacity: 0.3;
-    animation: bt1725 1s infinite;
+    animation: bt1702 1s infinite;
     font-size: 20px;
     min-width: 4px;
     align-items: flex-start;
@@ -3859,13 +3729,13 @@ button {
     justify-content: center;
 }
 
-.bt1723 {
+.bt1700 {
     font-size: 20px;
     font-weight: 600;
     line-height: 22px;
 }
 
-.bt1724 {
+.bt1701 {
     opacity: 0.5;
     font-size: 10px;
     font-weight: 600;
@@ -3873,7 +3743,7 @@ button {
     text-transform: uppercase;
 }
 
-@-webkit-keyframes bt1725 {
+@-webkit-keyframes bt1702 {
     0% {
         opacity: 0;
     }
@@ -3883,7 +3753,7 @@ button {
     }
 }
 
-.bt1716 {
+.bt1693 {
     display: flex;
     font-size: 11px;
     align-items: center;
@@ -3893,11 +3763,11 @@ button {
     letter-spacing: 2px;
 }
 
-.bt1717 {
+.bt1694 {
     text-transform: uppercase;
 }
 
-.bt1718 {
+.bt1695 {
     width: 8px;
     height: 8px;
     font-size: 0;
@@ -3907,25 +3777,25 @@ button {
     border-radius: 50%;
 }
 
-.bt1713 {
+.bt1690 {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.bt1714 {
+.bt1691 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bt1715 {
+.bt1692 {
     flex: 1;
 }
 
-.bt1700 {
+.bt1677 {
     color: #ffffff;
     width: 100%;
     height: 100%;
@@ -3933,7 +3803,7 @@ button {
     position: relative;
 }
 
-.bt1700::before {
+.bt1677::before {
     top: 0;
     left: 0;
     width: 100%;
@@ -3945,16 +3815,16 @@ button {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 }
 
-.bt1701 {
+.bt1678 {
     position: relative;
 }
 
-.bt1701 .bt1704 {
+.bt1678 .bt1681 {
     font-size: 18px;
     line-height: 20px;
 }
 
-.bt1702 {
+.bt1679 {
     top: 0;
     left: 0;
     width: 100%;
@@ -3965,7 +3835,7 @@ button {
     background-position: top center;
 }
 
-.bt1703 {
+.bt1680 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -3976,7 +3846,7 @@ button {
     justify-content: center;
 }
 
-.bt1704 {
+.bt1681 {
     padding: 18px 24px 16px;
     font-size: 22px;
     text-align: center;
@@ -3984,18 +3854,18 @@ button {
     line-height: 28px;
 }
 
-.bt1705 {
+.bt1682 {
     top: 8px;
     right: 8px;
     z-index: 4;
     position: absolute;
 }
 
-.bt1706 {
+.bt1683 {
     margin-top: 16px;
 }
 
-.bt1707 {
+.bt1684 {
     top: 50%;
     left: 16px;
     width: 32px;
@@ -4010,25 +3880,25 @@ button {
     justify-content: center;
 }
 
-.bt1708 {
+.bt1685 {
     left: auto;
     right: 16px;
 }
 
-.bt1709 {
+.bt1686 {
     cursor: default;
     opacity: 0.5;
 }
 
 @media (hover: hover) {
-    .bt1707:not(.bt1709):hover {
+    .bt1684:not(.bt1686):hover {
         cursor: pointer;
         opacity: 0.5;
         transition: opacity 0.3s;
     }
 }
 
-.bt1735 {
+.bt1712 {
     display: flex;
     font-size: 14px;
     align-items: center;
@@ -4036,12 +3906,12 @@ button {
     line-height: 18px;
 }
 
-.bt1735 svg {
+.bt1712 svg {
     fill: currentColor;
     margin-right: 4px;
 }
 
-.bt1741 {
+.bt1718 {
     top: 0;
     left: 0;
     width: 100%;
@@ -4054,31 +3924,31 @@ button {
     text-transform: uppercase;
 }
 
-.bt1741 td {
+.bt1718 td {
     width: 20%;
     height: 28px;
     padding: 0;
 }
 
-.bt1741 td:first-of-type .bt1742 {
+.bt1718 td:first-of-type .bt1719 {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
 
-.bt1741 td:last-of-type .bt1742 {
+.bt1718 td:last-of-type .bt1719 {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 
-.bt1741 td:nth-of-type(2) {
+.bt1718 td:nth-of-type(2) {
     width: 40%;
 }
 
-.bt1741 td:last-of-type {
+.bt1718 td:last-of-type {
     width: 100px;
 }
 
-.bt1742 {
+.bt1719 {
     color: rgba(255, 255, 255, 0.5);
     height: 24px;
     display: flex;
@@ -4089,11 +3959,11 @@ button {
     margin-bottom: 4px;
 }
 
-.bt1743 {
+.bt1720 {
     justify-content: flex-end;
 }
 
-.bt1744 {
+.bt1721 {
     width: 100%;
     border: 1px solid transparent;
     overflow: hidden;
@@ -4103,32 +3973,32 @@ button {
     line-height: 16px;
 }
 
-.bt1744 td {
+.bt1721 td {
     width: 20%;
     height: 36px;
     padding: 0;
 }
 
-.bt1744 td:nth-of-type(2) {
+.bt1721 td:nth-of-type(2) {
     width: 40%;
 }
 
-.bt1744 td:last-of-type {
+.bt1721 td:last-of-type {
     width: 100px;
 }
 
-.bt1744 td:first-of-type .bt1745 {
+.bt1721 td:first-of-type .bt1722 {
     padding-left: 18px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
 
-.bt1744 td:last-of-type .bt1745 {
+.bt1721 td:last-of-type .bt1722 {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 
-.bt1745 {
+.bt1722 {
     color: #ffffff;
     width: 100%;
     height: 32px;
@@ -4143,11 +4013,11 @@ button {
     margin-bottom: 4px;
 }
 
-.bt1746 {
+.bt1723 {
     justify-content: flex-end;
 }
 
-.bt1747 {
+.bt1724 {
     top: 0;
     left: 0;
     width: 4px;
@@ -4156,78 +4026,78 @@ button {
     position: absolute;
 }
 
-.bt1748 .bt1745 {
+.bt1725 .bt1722 {
     border-top: 1px solid #21A8F7;
     border-bottom: 1px solid #21A8F7;
 }
 
-.bt1748 td:last-of-type .bt1745 {
+.bt1725 td:last-of-type .bt1722 {
     border-right: 1px solid #21A8F7;
 }
 
-.bt1748 .bt1747 {
+.bt1725 .bt1724 {
     background: #21A8F7;
 }
 
-.bt1749 .bt1745 {
+.bt1726 .bt1722 {
     border-color: #E2B049;
 }
 
-.bt1749 td:last-of-type .bt1745 {
+.bt1726 td:last-of-type .bt1722 {
     border-color: #E2B049;
 }
 
-.bt1749 .bt1747 {
+.bt1726 .bt1724 {
     background: #E2B049;
 }
 
-.bt1750 .bt1745 {
+.bt1727 .bt1722 {
     border-color: #B6B6B8;
 }
 
-.bt1750 td:last-of-type .bt1745 {
+.bt1727 td:last-of-type .bt1722 {
     border-color: #B6B6B8;
 }
 
-.bt1750 .bt1747 {
+.bt1727 .bt1724 {
     background: #B6B6B8;
 }
 
-.bt1751 .bt1745 {
+.bt1728 .bt1722 {
     border-color: #B4653A;
 }
 
-.bt1751 td:last-of-type .bt1745 {
+.bt1728 td:last-of-type .bt1722 {
     border-color: #B4653A;
 }
 
-.bt1751 .bt1747 {
+.bt1728 .bt1724 {
     background: #B4653A;
 }
 
-.bt1752 {
+.bt1729 {
     width: 16px;
     margin-left: 10px;
 }
 
-.bt1752 svg {
+.bt1729 svg {
     fill: currentColor;
     display: block;
 }
 
-.bt1753 {
+.bt1730 {
     color: #E2B049;
 }
 
-.bt1754 {
+.bt1731 {
     color: #B6B6B8;
 }
 
-.bt1755 {
+.bt1732 {
     color: #B4653A;
 }
 
-.bt1740 {
+.bt1717 {
     width: 100%;
     border: none;
     position: relative;
@@ -4235,11 +4105,11 @@ button {
     border-spacing: 0;
 }
 
-.bt1740 tbody {
+.bt1717 tbody {
     width: 100%;
 }
 
-.bt1732 {
+.bt1709 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -4252,43 +4122,43 @@ button {
     flex-direction: column;
 }
 
-.bt1733 {
+.bt1710 {
     display: flex;
     margin-bottom: 12px;
     justify-content: center;
 }
 
-.bt1734 {
+.bt1711 {
     opacity: 0.5;
 }
 
-.bt1696 {
+.bt1673 {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-.bt1697 {
+.bt1674 {
     flex: 1;
 }
 
-.bt1698 {
+.bt1675 {
     flex: 1;
     padding: 0 8px;
     box-sizing: border-box;
 }
 
-.bt1699 {
+.bt1676 {
     padding: 0;
 }
 
-.bt1125 {
+.bt1068 {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.bt1126 {
+.bt1069 {
     color: #ffffff;
     width: 100%;
     height: 400px;
@@ -4298,7 +4168,7 @@ button {
     border-radius: 6px;
 }
 
-.bt1127 {
+.bt1070 {
     width: 100%;
     display: flex;
     opacity: 0.5;
@@ -4308,7 +4178,7 @@ button {
     justify-content: center;
 }
 
-.bt1203 {
+.bt1091 {
     flex: 1;
     width: 100%;
     height: 100%;
@@ -4317,7 +4187,7 @@ button {
     flex-direction: column;
 }
 
-.bt1204 {
+.bt1092 {
     flex: 0 0 auto;
     display: flex;
     padding: 0 8px;
@@ -4327,177 +4197,43 @@ button {
     justify-content: center;
 }
 
-.bt1205 {
+.bt1093 {
     flex: 1;
     display: flex;
     padding: 0 8px;
     flex-direction: column;
 }
 
-.bt1206 {
+.bt1094 {
     flex: 0 0 auto;
     padding: 0 8px 24px;
 }
 
-.bt1207 .bt1205 {
+.bt1095 .bt1093 {
     flex: 0 0 auto;
 }
 
-.bt1207 .bt1206 {
+.bt1095 .bt1094 {
     flex: 1;
 }
 
-.bt1208 {
+.bt1096 {
     width: 100% !important;
 }
 
-.bt1208 .bt1204 {
+.bt1096 .bt1092 {
     padding: 0 8px;
 }
 
-.bt1208 .bt1205 {
+.bt1096 .bt1093 {
     padding: 0 8px;
 }
 
-.bt1208 .bt1206 {
+.bt1096 .bt1094 {
     padding: 0 8px 24px;
 }
 
-.bt1319 {
-    min-width: 100%;
-}
-
-.bt1320 {
-    flex: 1;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bt1321 {
-    cursor: pointer;
-    margin: auto;
-    padding: 0 28px;
-}
-
-.bt1333 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.bt1334 {
-    flex: 1;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17px;
-}
-
-.bt1335 {
-    position: relative;
-}
-
-.bt1336 {
-    color: inherit;
-    margin-bottom: 8px;
-}
-
-.bt1337 {
-    opacity: 0.5;
-    font-size: 12px;
-    line-height: 15px;
-    margin-bottom: 5px;
-}
-
-.bt1338 {
-    max-height: 34px;
-    overflow-y: hidden;
-}
-
-.bt1339 {
-    display: flex;
-    flex-direction: column;
-}
-
-.bt1340 {
-    top: 0;
-    left: 0;
-    width: 100%;
-    cursor: pointer;
-    height: calc(100% - 4px);
-    z-index: 10;
-    position: absolute;
-}
-
-.bt1310 {
-    color: inherit;
-    cursor: pointer;
-    display: inline-flex;
-    opacity: 0.5;
-    font-size: 11px;
-    transition: opacity 0.5s;
-    align-items: center;
-    font-weight: 600;
-    line-height: 13px;
-}
-
-@media (hover: hover) {
-    .bt1310:hover {
-        opacity: 1;
-    }
-}
-
-.bt1328 {
-    flex: 1;
-    display: flex;
-    padding: 12px 8px 16px;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-}
-
-.bt1329 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.bt1330 {
-    flex: 0 0 auto;
-    height: 32px;
-    display: flex;
-    position: relative;
-    margin-top: 16px;
-    justify-content: space-between;
-}
-
-.bt1331 {
-    padding: 16px 8px;
-}
-
-.bt1332 {
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-}
-
-.bt1312 {
-    color: #ffffff;
-    margin-top: 31px;
-}
-
-.bt1313 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.bt1228 {
+.bt1116 {
     width: 72px;
     height: 72px;
     display: flex;
@@ -4509,7 +4245,7 @@ button {
     justify-content: center;
 }
 
-.bt1230 {
+.bt1118 {
     flex: 1;
     width: 100%;
     position: relative;
@@ -4520,62 +4256,62 @@ button {
     word-break: initial;
 }
 
-.bt1231 {
+.bt1119 {
     max-width: 64px;
 }
 
-.bt1233 {
+.bt1121 {
     cursor: default;
     opacity: 0.5;
 }
 
 @media (max-width: 600px) {
-    .bt1228 {
+    .bt1116 {
         height: 48px;
     }
 }
 
-.bt1227 {
+.bt1115 {
     width: 100%;
     display: flex;
 }
 
-.bt1214 {
+.bt1102 {
     flex: 1;
     overflow: hidden;
 }
 
-.bt1215 {
+.bt1103 {
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.bt1216 {
+.bt1104 {
     margin-right: 8px;
 }
 
-.bt1216 svg {
+.bt1104 svg {
     display: block;
 }
 
-.bt1218 {
+.bt1106 {
     color: #21A8F7;
     font-weight: 600;
 }
 
-.bt1295 {
+.bt1183 {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.bt1296 {
+.bt1184 {
     pointer-event: auto;
 }
 
-.bt1285 {
+.bt1173 {
     color: #ffffff;
     height: 40px;
     margin: 0 16px;
@@ -4588,26 +4324,26 @@ button {
     text-transform: uppercase;
 }
 
-.bt1286 {
+.bt1174 {
     color: rgba(255, 255, 255, 1);
     background: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.2);
 }
 
 @media (hover: hover) {
-    .bt1285:hover {
+    .bt1173:hover {
         background: rgba(59, 193, 22, 0.75);
         border-color: rgba(59, 193, 22, 0.75);
     }
 
-    .bt1286:hover {
+    .bt1174:hover {
         color: rgba(255, 255, 255, 1);
         background: rgba(255, 255, 255, 0.2);
         border-color: rgba(255, 255, 255, 0.2);
     }
 }
 
-.bt1287 {
+.bt1175 {
     top: 0;
     left: 0;
     width: 100%;
@@ -4618,13 +4354,13 @@ button {
     justify-content: center;
 }
 
-.bt1288 {
+.bt1176 {
     top: 4px;
     right: 4px;
     position: absolute;
 }
 
-.bt1517 {
+.bt1629 {
     color: inherit;
     display: flex;
     opacity: 0.6;
@@ -4633,87 +4369,105 @@ button {
     line-height: 15px;
 }
 
-.bt1517:first-of-type {
+.bt1629:first-of-type {
     margin-top: 0;
 }
 
-.bt1518 {
+.bt1630 {
     margin-top: 6px;
 }
 
-.bt1519 {
+.bt1631 {
     flex: 1;
 }
 
-.bt1520 {
+.bt1632 {
     flex: 0 0 auto;
     display: flex;
     align-items: center;
 }
 
-.bt1521 {
+.bt1633 {
     color: #41BC2C;
     opacity: 1;
 }
 
-.bt1522 {
+.bt1634 {
     margin-right: 6px;
 }
 
-.bt1523 {
+.bt1635 {
     opacity: 0.5;
 }
 
-.bt1524 {
+.bt1636 {
     opacity: 1;
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
 }
 
-.bt1524 .bt1519 {
+.bt1636 .bt1631 {
     text-transform: uppercase;
 }
 
-.bt1254 {
+.bt1142 {
     display: flex;
     justify-content: center;
 }
 
-.bt1255 {
+.bt1143 {
     display: flex;
     margin-top: 24px;
     justify-content: center;
 }
 
-.bt1256 {
+.bt1144 {
     padding: 0 24px;
     margin-left: 16px;
 }
 
-.bt1257 {
+.bt1145 {
     margin-top: 16px;
 }
 
-.bt1253 {
+.bt1141 {
     margin-top: 2px;
     justify-content: center;
 }
 
-.bt1249 {
+.bt1198 {
+    color: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    opacity: 0.5;
+    font-size: 11px;
+    transition: opacity 0.5s;
+    align-items: center;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+@media (hover: hover) {
+    .bt1198:hover {
+        opacity: 1;
+    }
+}
+
+.bt1137 {
     position: relative;
     margin-top: 24px;
 }
 
-.bt1250 {
+.bt1138 {
     margin-top: 7px;
 }
 
-.bt1250 .bt1251 {
+.bt1138 .bt1139 {
     margin-top: 14px;
 }
 
-.bt1251 {
+.bt1139 {
     height: 32px;
     display: flex;
     margin-top: 32px;
@@ -4721,103 +4475,219 @@ button {
     justify-content: center;
 }
 
-.bt1252 {
+.bt1140 {
     bottom: 0;
     position: absolute;
 }
 
-.bt1191 {
+.bt1079 {
     margin-top: 7px;
 }
 
-.bt1192 {
+.bt1080 {
     display: flex;
     margin-top: 24px;
 }
 
-.bt1193 {
+.bt1081 {
     display: flex;
 }
 
-.bt1194 {
+.bt1082 {
     width: calc(100% + 8px);
     display: flex;
     position: relative;
     margin-top: 12px;
 }
 
-.bt1196 {
+.bt1084 {
     padding-top: 10px;
     padding-bottom: 21px;
 }
 
-.bt1197 {
+.bt1085 {
     padding: 0 32px;
 }
 
-.bt1198 {
+.bt1086 {
     position: relative;
     padding-top: 12px;
 }
 
-.bt1199 .bt1198 {
+.bt1087 .bt1086 {
     padding-top: 0;
 }
 
-.bt1199 .bt1192 {
+.bt1087 .bt1080 {
     margin-top: 16px;
 }
 
-.bt1199 .bt1196 {
+.bt1087 .bt1084 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.bt1200 {
+.bt1088 {
     padding-top: 0;
 }
 
-.bt1408 {
+.bt1207 {
+    min-width: 100%;
+}
+
+.bt1208 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt1209 {
+    cursor: pointer;
+    margin: auto;
+    padding: 0 28px;
+}
+
+.bt1222 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bt1223 {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.bt1224 {
+    position: relative;
+}
+
+.bt1225 {
+    color: inherit;
+    margin-bottom: 8px;
+}
+
+.bt1226 {
+    opacity: 0.5;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.bt1227 {
+    max-height: 34px;
+    overflow-y: hidden;
+}
+
+.bt1228 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bt1229 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    height: calc(100% - 4px);
+    z-index: 10;
+    position: absolute;
+}
+
+.bt1217 {
+    flex: 1;
+    display: flex;
+    padding: 12px 8px 16px;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.bt1218 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bt1219 {
+    flex: 0 0 auto;
+    height: 32px;
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.bt1220 {
+    padding: 16px 8px;
+}
+
+.bt1221 {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.bt1200 {
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.bt1201 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bt1520 {
     width: 32px;
     height: 32px;
 }
 
-.bt1369 {
+.bt1481 {
     opacity: 0;
     transform: translateY(100%) scale(0);
 }
 
-.bt1370 {
+.bt1482 {
     opacity: 1;
     transform: translateY(0) scale(1);
     transition: all 300ms ease-in-out;
 }
 
-.bt1371 {
+.bt1483 {
     opacity: 1;
     transform: translateY(0) scale(1);
 }
 
-.bt1372 {
+.bt1484 {
     opacity: 0;
     transform: translateY(100%) scale(0);
     transition: all 300ms ease-in-out;
 }
 
-.bt1364 {
+.bt1476 {
     top: -2px;
     left: 40px;
     position: absolute;
 }
 
-.bt1365 {
+.bt1477 {
     width: 58px;
     height: 58px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.65);
     border-radius: 50%;
 }
 
-.bt1366 {
+.bt1478 {
     color: #ffffff;
     width: 58px;
     cursor: pointer;
@@ -4832,18 +4702,18 @@ button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.bt1367 {
+.bt1479 {
     color: #ffffff;
     background: #814BF6;
 }
 
-.bt1368 {
+.bt1480 {
     width: 32px;
     height: 32px;
     margin-right: 4px;
 }
 
-.bt1402 {
+.bt1514 {
     width: 48px;
     border: 1px solid transparent;
     cursor: pointer;
@@ -4857,17 +4727,17 @@ button {
     border-radius: 60px;
 }
 
-.bt1403 {
+.bt1515 {
     background: #3BC116;
 }
 
-.bt1404 {
+.bt1516 {
     width: 44px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 6px;
 }
 
-.bt1406 {
+.bt1518 {
     top: 2px;
     left: 3px;
     width: 18px;
@@ -4882,19 +4752,19 @@ button {
     justify-content: center;
 }
 
-.bt1407 {
+.bt1519 {
     transform: translateX(22px);
     background: #ffffff;
 }
 
-.bt1396 {
+.bt1508 {
     display: flex;
     flex-basis: 126px;
     align-items: center;
     justify-content: center;
 }
 
-.bt1397 {
+.bt1509 {
     flex: none;
     width: 52px;
     border: 2px solid;
@@ -4902,25 +4772,25 @@ button {
     border-color: #ffffff;
 }
 
-.bt1398 {
+.bt1510 {
     background: #ffffff;
     border-color: transparent;
 }
 
-.bt1398 .bt1399 {
+.bt1510 .bt1511 {
     color: #ffffff;
     transform: translateX(28px);
     background: #814BF6;
 }
 
-.bt1399 {
+.bt1511 {
     top: 1px;
     left: 1px;
     color: #3BC116;
     background: #ffffff;
 }
 
-.bt1400 {
+.bt1512 {
     color: #ffffff;
     font-size: 10px !important;
     text-align: right;
@@ -4930,18 +4800,18 @@ button {
     text-transform: uppercase;
 }
 
-.bt1401 {
+.bt1513 {
     color: #ffffff;
 }
 
-.bt1388 {
+.bt1500 {
     overflow: hidden;
     font-size: 16px !important;
     margin-right: 4px;
     text-overflow: ellipsis;
 }
 
-.bt1389 {
+.bt1501 {
     fill: currentColor;
     flex: none;
     width: 16px;
@@ -4951,11 +4821,11 @@ button {
     margin-left: 4px;
 }
 
-.bt1390 {
+.bt1502 {
     transform: rotate(180deg);
 }
 
-.bt1391 {
+.bt1503 {
     color: #ffffff;
     cursor: pointer;
     height: 56px;
@@ -4970,7 +4840,7 @@ button {
     justify-content: space-between;
 }
 
-.bt1391:before {
+.bt1503:before {
     top: 0;
     left: 0;
     right: 0;
@@ -4984,15 +4854,15 @@ button {
     border-radius: inherit;
 }
 
-.bt1392 {
+.bt1504 {
     color: #ffffff;
 }
 
-.bt1392:before {
+.bt1504:before {
     opacity: 1;
 }
 
-.bt1393 {
+.bt1505 {
     flex: 1;
     display: flex;
     font-size: 16px;
@@ -5001,47 +4871,47 @@ button {
     font-weight: 600;
 }
 
-.bt1394 {
+.bt1506 {
     width: 32px;
     height: 32px;
     margin-right: 8px;
 }
 
-.bt1373 {
+.bt1485 {
     transition: all 300ms ease-in-out;
 }
 
-.bt1374 {
+.bt1486 {
     opacity: 1;
     transform: translateY(0);
 }
 
-.bt1375 {
+.bt1487 {
     opacity: 1;
     transform: translateY(0);
 }
 
-.bt1376 {
+.bt1488 {
     transform: translateY(100%);
 }
 
-.bt1377 {
+.bt1489 {
     transform: translateY(100%);
 }
 
-.bt1380 {
+.bt1492 {
     transition: all 300ms ease-in-out;
 }
 
-.bt1383 {
+.bt1495 {
     transform: translateY(0);
 }
 
-.bt1384 {
+.bt1496 {
     transform: translateY(0);
 }
 
-.bt1387 {
+.bt1499 {
     transition: height 300ms ease-in-out;
     will-change: height;
 }
@@ -5061,7 +4931,7 @@ button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.bt1350 {
+.bt1462 {
     top: 0;
     left: 0;
     right: 0;
@@ -5069,33 +4939,33 @@ button {
     position: absolute;
 }
 
-.bt1351 .bt1352 .bt1356 {
+.bt1463 .bt1464 .bt1468 {
     background: #24262B;
     border-radius: 16px 16px 0 0;
 }
 
-.bt1352 {
+.bt1464 {
     width: 320px;
     bottom: -120px;
     margin: 0 4px;
     position: absolute;
 }
 
-.bt1353 {
+.bt1465 {
     transform: translateY(-120px);
     transition: transform 300ms ease-in-out;
 }
 
-.bt1354 {
+.bt1466 {
     transform: translateY(-120px);
 }
 
-.bt1355 {
+.bt1467 {
     transform: translateY(0);
     transition: transform 300ms ease-in-out;
 }
 
-.bt1356 {
+.bt1468 {
     left: 0;
     right: 0;
     bottom: 120px;
@@ -5107,7 +4977,7 @@ button {
     pointer-events: auto;
 }
 
-.bt1357 {
+.bt1469 {
     left: 50%;
     bottom: 136px;
     position: absolute;
@@ -5115,7 +4985,7 @@ button {
     pointer-events: auto;
 }
 
-.bt1358 {
+.bt1470 {
     left: 0;
     right: 0;
     bottom: 0;
@@ -5126,22 +4996,22 @@ button {
 }
 
 @media (max-width: 600px) {
-    .bt1352 {
+    .bt1464 {
         width: calc(100% - 8px);
         box-sizing: border-box;
     }
 
-    .bt1351 .bt1352 {
+    .bt1463 .bt1464 {
         width: 100%;
         margin: 0;
     }
 }
 
-.bt1478 {
+.bt1590 {
     opacity: 0.5;
 }
 
-.bt1479 {
+.bt1591 {
     flex: 1;
     display: flex;
     font-size: 10px;
@@ -5149,7 +5019,7 @@ button {
     flex-direction: column;
 }
 
-.bt1480 {
+.bt1592 {
     display: flex;
     font-size: 12px;
     align-items: center;
@@ -5157,23 +5027,23 @@ button {
     line-height: 15px;
 }
 
-.bt1481 {
+.bt1593 {
     display: flex;
     opacity: 0.75;
     margin-top: 5px;
     flex-direction: column;
 }
 
-.bt1482 {
+.bt1594 {
     opacity: 0.5;
     margin-right: 5px;
 }
 
-.bt1483 {
+.bt1595 {
     margin-right: 8px;
 }
 
-.bt1484 {
+.bt1596 {
     flex: 0 0 auto;
     padding: 0 16px;
     font-size: 18px;
@@ -5181,17 +5051,17 @@ button {
     line-height: 22px;
 }
 
-.bt1512 {
+.bt1624 {
     position: relative;
 }
 
-.bt1513 {
+.bt1625 {
     bottom: 0;
     position: absolute;
     pointer-events: none;
 }
 
-.bt1458 {
+.bt1570 {
     color: #ffffff;
     width: 432px;
     height: 100%;
@@ -5205,20 +5075,202 @@ button {
     flex-direction: column;
 }
 
-.bt1459 {
+.bt1571 {
     flex: 1;
 }
 
-.bt1460 {
+.bt1572 {
     margin-bottom: 8px;
 }
 
-.bt1461 {
+.bt1573 {
     flex: 0 0 auto;
     position: relative;
 }
 
-.bt1462 {
+.bt1574 {
     color: #ffffff;
     margin-top: 16px;
+}
+
+
+.bt52,
+.bt58,
+.bt61,
+.bt71,
+.bt896,
+.bt905,
+.bt910,
+.bt915,
+.bt920,
+.bt925,
+.bt930,
+.bt935,
+.bt940,
+.bt945,
+.bt950,
+.bt955,
+.bt960,
+.bt965,
+.bt970 {
+    color: rgb(152, 166, 181);
+    /* width: 32px; */
+    /* height: 32px; */
+    display: flex;
+    padding: 8px;
+    position: relative;
+    align-items: center;
+    border-radius: 6px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bt54 {
+    color: rgb(59, 193, 22);
+}
+
+.bt1099,
+.bt1587,
+.bt1248,
+.bt1072 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.bt1716 {
+    height: 350px;
+}
+
+
+.bt111 {
+    cursor: pointer;
+    height: 40px;
+    display: inline-flex;
+    padding: 0 16px;
+    position: relative;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: background 0.5s, opacity 0.5s, color 0.5s;
+    align-items: center;
+    line-height: 40px;
+    user-select: none;
+    border-radius: 18px;
+    vertical-align: middle;
+}
+
+
+
+.bt116 {
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+
+.bt122 {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.bt1255 {
+    color: rgb(152, 166, 181);
+    font-size: 12px;
+    background: rgb(36, 38, 43);
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    margin-right: 8px;
+    border-radius: 18px;
+}
+
+.bt1255:hover {
+    background: rgba(36, 38, 43, 0.5);
+    box-shadow: none;
+}
+
+.bt1095,
+.bt1575 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: 1px solid rgb(36, 38, 43);
+    height: 100%;
+    display: flex;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    background: rgb(36, 38, 43);
+    box-sizing: border-box;
+    min-height: 644px;
+    padding-left: 8px;
+    border-radius: 8px;
+    padding-right: 8px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bt1597 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px 9px 7px;
+    overflow: hidden;
+    background: rgb(46, 48, 54);
+    box-sizing: border-box;
+    align-items: center;
+    border-right: 8px solid rgb(65, 188, 44);
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.bt1194,
+.bt1190,
+.bt1641,
+.bt1645 {
+    background: rgb(46, 48, 54);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bt1644,
+.bt1193 {
+    transform: rotate(90deg);
+}
+
+.bt1648,
+.bt1197 {
+    transform: rotate(-90deg);
+}
+
+.bt1164,
+.bt1626 {
+    text-align: right !important;
+}
+
+.bt1171,
+.bt1627 {
+    flex: 1 1 0%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 32px;
+    margin: 0px 8px 0px 0px;
+    display: inline-block;
+    padding: 0px 12px;
+    font-size: 14px;
+    background: rgb(46, 48, 54);
+    text-align: center;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 24px;
+}
+
+.bt111:first-child {
+    color: #fff;
+    background-color: rgb(59, 193, 22);
 }
