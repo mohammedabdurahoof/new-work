@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/index.bfcb7d91.css'
+// import styles from '../styles/index.bfcb7d91.module.css'; 
 
 interface Props {
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;

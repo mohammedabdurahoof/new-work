@@ -1,12 +1,12 @@
 "use client"
 
-import { BottomBar, Chat, Footer, Header, Login, MobileHeader, MobileNav, SideBar, TopButton } from '@/components'
+import { BottomBar, Chat, Footer, Header, Login, MobileFooter, MobileHeader, MobileNav, SideBar, TopButton } from '@/components'
 import React, { ReactNode, useState } from 'react'
 import '../styles/index.3d6a1388.css'
 import '../styles/enter-87695937.css'
 import '../styles/index-7df30de5.css'
 import '../styles/signin-8fa3fd7d.css'
-import '../styles/index.bfcb7d91.css'
+// import '../styles/index.bfcb7d91.css'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -42,8 +42,10 @@ function BaseLayout({ children }: Props) {
                 </>}
 
             {children}
-            <Footer />
-            <Chat />
+            {
+                isMobile ? <MobileFooter /> : <Footer />
+            }
+            {isMobile ? '' : <Chat />}
             <TopButton />
         </div>
     )

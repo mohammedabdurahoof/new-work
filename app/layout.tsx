@@ -11,7 +11,7 @@ import '../styles/_default.page.client.694535e5.css'
 import '../styles/index.page.9b307262.css'
 import '../styles/index.page.2750914e.css'
 import '../styles/style.css'
-import '../styles/index.bfcb7d91.css'
+// import '../styles/index.bfcb7d91.css'
 
 import BaseLayout from './BaseLayout'
 
