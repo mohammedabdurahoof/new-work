@@ -1,7 +1,6 @@
 // components/FoldNavLinks.tsx
 
 import React, { ReactNode, useState } from 'react';
-import '../styles/index.3d6a1388.css'
 
 interface UnFoldNavLinkProps {
     href: string;

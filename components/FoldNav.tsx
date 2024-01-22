@@ -1,7 +1,6 @@
 // components/FoldNavLinks.tsx
 
 import React, { ReactNode } from 'react';
-import '../styles/index.3d6a1389.css'
 
 interface FoldNavLinkProps {
     href: string;
