@@ -1,7 +1,15 @@
+'use client'
+
 import { Winner } from '@/types';
 import React from 'react'
+import { useMediaQuery } from 'react-responsive';
 
 function RecentWinners() {
+
+    const isDesktop = useMediaQuery({ minWidth: 1024 });
+    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
+    const isMobile = useMediaQuery({ maxWidth: 767 });
+
     const winners: Winner[] = [
         {
             player: 'Player1',
@@ -72,7 +80,7 @@ function RecentWinners() {
             <div className="winner-recent-table-box">
                 <div className="winner-recent-table-header">
                     <label>Player</label>
-                    <label>Lottery</label>
+                    {!isMobile && <label>Lottery</label>}
                     <label className="price-item">Prize</label>
                 </div>
                 <div className="winner-recent-table-body">
@@ -83,7 +91,7 @@ function RecentWinners() {
                                     <img className="avatar" src={winner.avatarSrc} alt="Player Avatar" />
                                     <label className="user-name lottery-name ellipsis">{winner.userName}</label>
                                 </span>
-                                <label className="lottery-name-box lottery-name ellipsis">{winner.lotteryName}</label>
+                                {!isMobile && <label className="lottery-name-box lottery-name ellipsis">{winner.lotteryName}</label>}
                                 <span className="price-item-box">
                                     <label className="price-item">{winner.priceAmount}</label>
                                     <img className="price-icon" src={winner.priceIconSrc} alt="Price Icon" />

@@ -12,7 +12,7 @@ function page() {
           <Recommended title='Slots' />
           <Recommended title='Feature Buy-in' />
           <Recommended title='Live Casino' />
-          <Providers />
+          {/* <Providers /> */}
           <Recommended title='New Releases' />
           <Recommended title='Hot Games' />
           <Recommended title='Blackjack' />

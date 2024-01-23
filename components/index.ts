@@ -33,6 +33,8 @@ import RecentWinners from "./Lottery/RecentWinners";
 import TopWinning from "./Lottery/TopWinning";
 import LatestResultsTable from "./Lottery/LatestResultsTable";
 import LotteryTab from "./Lottery/Tab";
+import PcSteps from "./Lottery/PcSteps";
+import MobileSteps from "./Lottery/MobileSteps";
 import Login from "./Login";
 import BottomBar from "./BottomBar";
 import MobileNav from "./MobileNav";
@@ -44,5 +46,5 @@ export {
     Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore,
     Loading, Dashboard, SlipBox, LotteryBanner, LotterySearch, DrawCard, PopularCard, RecentWinners,
     TopWinning, LatestResultsTable, LotteryTab, Login, BottomBar, MobileNav, MobileHeader, SportsNavbar,
-    SportsNavigation, MobileFooter
+    SportsNavigation, MobileFooter,MobileSteps ,PcSteps
 }

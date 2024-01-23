@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Register() {
+
     return (
         <div className="f14mfal0">
             <div className="slide-btn slide-prev"><button className="ui-button button-normal">
@@ -13,7 +14,7 @@ function Register() {
                     <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Arrow"></use>
                 </svg></div>
             </button></div>
-            <div className="s138s2zu slide-list">
+            <div className="s138s2zu slide-list" style={{'--grid-num': '1'}as React.CSSProperties}>
                 <div className="c16jsxqw register-bonus"><img src="/images/ball_1.8c16948f.png" className="img-ball ball-grey"
                     alt="ball" /><img src="/images/ball_5.c6bfb29b.png" className="img-ball ball-color" alt="ball" />
                         <div className="bonus-img">

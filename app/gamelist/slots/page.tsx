@@ -70,7 +70,7 @@ function Page() {
       combinedArray = [...combinedArray, ...value]
     });
 
-    combinedArray.sort((a, b) => a.game_name.localeCompare(b.game_name));
+    combinedArray.sort((a, b) => a.game_name && a.game_name.localeCompare(b.game_name));
 
     // console.log(combinedArray);
     setGameList(combinedArray)

@@ -1,6 +1,8 @@
+'use client'
 import React, { Children, ReactNode } from 'react'
 import EventCard from './EventCard'
 import PillTab from './PillTab'
+import { useMediaQuery } from 'react-responsive';
 
 interface Props {
     children: ReactNode;
@@ -9,6 +11,9 @@ interface Props {
 }
 
 function Matches({ children, icon, label }: Props) {
+
+    const isDesktop = useMediaQuery({ minWidth: 1024 });
+
     return (
         <div>
             <div className="bt187">
@@ -248,7 +253,7 @@ function Matches({ children, icon, label }: Props) {
                             </div>
                         </div>
                         <div>
-                            <div className="bt295 bt296">
+                            <div className={`bt295 ${isDesktop && 'bt296'}`}>
                                 <EventCard
                                     place='Turkiye'
                                     name='Super Lig'
