@@ -9,7 +9,7 @@ function Recommended({ title }: CardsProps) {
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
-    const gridNum = isDesktop? 6 : isTablet ? 4 : 2
+    const gridNum = isMobile? 2 : isTablet ? 4 : 6
     return (
         <div className="ggjjku9 s1kcy63f recommend-list">
             <div className="grid-tit"><span className="txt">{title}</span></div>
