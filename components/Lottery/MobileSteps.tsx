@@ -37,7 +37,7 @@ function MobileSteps() {
                         <img className="draw-desc-img" src="/images/lottery/step1-desc-mobile.png" />
                     </section>
                     <section className="paragraph">
-                        <p>To begin wagering select your preferred Lucky Numbers game by clicking on the 'BET' button.</p>
+                        <p>To begin wagering select your preferred Lucky Numbers game by clicking on the &apos;BET&apos; button.</p>
                         <p>Choose from our extensive list of international Lucky Numbers draws by searching available draws on the Lucky Numbers page or find the most recent upcoming draws on the home page carousel.</p>
                         <p>Numerous Lucky Numbers draws take place regularly offering you the chance to win every day of the week.</p>
                         <p>Once you have selected the Lucky Numbers you will be provided with betting market types available for your selected game.</p>
@@ -103,7 +103,7 @@ function MobileSteps() {
                         <img className="draw-desc-img" src="/images/lottery/step3-desc-mobile.png" />
                     </section>
                     <section className="paragraph">
-                        <p>To begin wagering select your preferred Lucky Numbers game by clicking on the 'BET' button.</p>
+                        <p>To begin wagering select your preferred Lucky Numbers game by clicking on the &lsquo;BET&rsquo; button.</p>
                         <p>Choose from our extensive list of international Lucky Numbers draws by searching available draws on the Lucky Numbers page or find the most recent upcoming draws on the home page carousel.</p>
                         <p>Numerous Lucky Numbers draws take place regularly offering you the chance to win every day of the week.</p>
                         <p>Once you have selected the Lucky Numbers you will be provided with betting market types available for your selected game.</p>
@@ -136,8 +136,8 @@ function MobileSteps() {
                         <img className="draw-desc-img" src="/images/lottery/step4-desc-mobile.png" />
                     </section>
                     <section className="paragraph">
-                        <p>After you've made your selections, review your betslip for accuracy. You can increase or decrease your stake as well as delete a selection or entire bet.</p>
-                        <p>Select the 'BET' button to proceed and your bet will be added to your account. Keep track of your transaction history in 'My Account.'</p>
+                        <p>After you&apos;ve made your selections, review your betslip for accuracy. You can increase or decrease your stake as well as delete a selection or entire bet.</p>
+                        <p>Select the &lsquo;BET&rsquo; button to proceed and your bet will be added to your account. Keep track of your transaction history in &lsquo;My Account.&rsquo;</p>
                     </section>
                 </div>
             </section>

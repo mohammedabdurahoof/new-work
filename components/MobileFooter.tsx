@@ -33,15 +33,15 @@ function MobileFooter() {
                             <div className="crypto-text">
                                 <h2>Crypto Online Casino</h2>
                                 <p>Casinos online have not always been around, but we can safely say that online casinos have
-                                    been used a lot since they came on the market. And it's not in short demand nor options, and
-                                    now in 2023, we have 1000s and 1000s to pick from – it's just a matter of what you like and
+                                    been used a lot since they came on the market. And it&apos;s not in short demand nor options, and
+                                    now in 2023, we have 1000s and 1000s to pick from – it&apos;s just a matter of what you like and
                                     what payment options you would like to see at the casino.</p>
                                 <p>Players are always looking for something new, which will help make the gaming experience so
                                     much better and more accessible. Allowing the player to focus on the absolute fun of a
-                                    casino, that's right, the games themselves.</p>
+                                    casino, that&apos;s right, the games themselves.</p>
 
                                 <div className="other-info">
-                                    <p>That's why we are now going to tell you all you need to know about a crypto casino or
+                                    <p>That&apos;s why we are now going to tell you all you need to know about a crypto casino or
                                         bitcoin gambling or bitcoin casino, whatever you want to call it.</p>
                                     <h2>What is crypto?</h2>
                                     <p>Before discussing what casino games you can play, you first need to understand what
@@ -64,7 +64,7 @@ function MobileFooter() {
                                         use bitcoin and other crypto for your deposit and withdrawals. Unfortunately, the sad
                                         truth is that very few casinos accept it. But the good news is that the top online
                                         casinos will have one or the other crypto that you can at least use for deposits. When
-                                        it comes to withdrawals, it's a bit harder to find a casino. Most likely, you'll have to
+                                        it comes to withdrawals, it&apos;s a bit harder to find a casino. Most likely, you&apos;ll have to
                                         pick one of the other payment options. The most found payment option to combine with
                                         bitcoin and crypto is a bank transfer straight into your bank account.</p>
                                     <p>For the newbies out there, we will drop a few names for other casinos to look at if you
@@ -89,7 +89,7 @@ function MobileFooter() {
                                         <li>Verification – a real party pooper is when you have to fill out much information to
                                             access the fun. The simple answer is to use crypto, and you will no longer need to
                                             experience this.</li>
-                                        <li>Transaction fees – ok, we understand that everyone needs to make money and that it's
+                                        <li>Transaction fees – ok, we understand that everyone needs to make money and that it&apos;s
                                             not all that gets covered by the ads, etc., that runs in the background and the
                                             standard fees that come with a transaction. But we also know that some payment
                                             options like to lay heavy on the fees they charge their clients when they use their
@@ -100,10 +100,10 @@ function MobileFooter() {
                                     <ul>
                                         <li>No chargebacks/reversals – unfortunately, you have no take backs when using this
                                             payment option. Once the transaction has been confirmed on your account and left
-                                            your wallet, that's it. So be sure that you do your background check on the casino
+                                            your wallet, that&apos;s it. So be sure that you do your background check on the casino
                                             or online gambling site you want to spend your time and money on as you do not have
                                             the same security as credit cards and other traditional payment methods.</li>
-                                        <li>No "the customer is always right" – when comes to the problems with transactions,
+                                        <li>No &quot;the customer is always right&quot; – when comes to the problems with transactions,
                                             their customer service have been described not to be the best. They run good
                                             communication with all their customers, and you will not be left to sort it by
                                             yourself or anything. But the chances of getting money back once it has left your
@@ -113,27 +113,27 @@ function MobileFooter() {
                                     </ul>
 
                                     <h2>How can I be sure the online casino site is safe?</h2>
-                                    <p>Most casinos online today are safe, and you don't need to worry about spending your time
+                                    <p>Most casinos online today are safe, and you don&apos;t need to worry about spending your time
                                         at them. However, there are some casinos that do not have your best interest at heart.
-                                        That's why you always need to do your background check even when it comes to crypto
-                                        gambling, or should we say at least if you want to use bitcoin to gamble. There's no
+                                        That&apos;s why you always need to do your background check even when it comes to crypto
+                                        gambling, or should we say at least if you want to use bitcoin to gamble. There&apos;s no
                                         extra security, and when the money leaves your wallet, you do not have a lot of chances
                                         to get the money back.</p>
                                     <p>Luckily there are ways to find out if you can truly trust the casino you want to spend
                                         your time on. The best way is to check if the casino has a valid license for online
                                         gambling. All casinos need this to run their casino legally, and it is not free, so it
-                                        wouldn't be something they hide. Some casinos choose to obtain more than one of these
+                                        wouldn&apos;t be something they hide. Some casinos choose to obtain more than one of these
                                         licenses. This is a red flag for some, and we are here to tell you that it is not a red
                                         flag. A casino can have as many licenses as they please, but they can also have one.</p>
                                     <p>Also, searching the casino to look at what other players are saying is always a good
                                         idea. If a casino were to be unfair, you would not be the first one they have done it to
                                         – so there will be some kind of reviews out there telling you about what happened and
                                         what has been done about it. Use your best judgment, and if something feels off about
-                                        the gambling site, then there's a lot more out there. Pick a different one, and there's
+                                        the gambling site, then there&apos;s a lot more out there. Pick a different one, and there&apos;s
                                         no need to gamble with faith.</p>
 
                                     <h2>Do you still get bonuses if you deposit with crypto?</h2>
-                                    <p>We can say that it's the casino experience, the thrill, the fun, and the games that bring
+                                    <p>We can say that it&apos;s the casino experience, the thrill, the fun, and the games that bring
                                         the players to the different casinos, but we all know it would be a lie. Players want
                                         bonuses and a lot of bonuses to help them on their way to winning big. Bonuses are just
                                         like free money, and just watch the conditions that come with the bonuses before you
@@ -142,28 +142,28 @@ function MobileFooter() {
                                         the bonuses are minor but not bad for what you get. If you are a first-time player at
                                         the casino, you will find a welcome package on a bitcoin casino. This is the bonus that
                                         will start your journey on the casino, and it will help you go for the big jackpot.</p>
-                                    <p>It's not just the welcome bonus that's available. After using the welcome bonus, you need
-                                        to keep your eyes out for the deposit bonus. That's the bonus the casinos sometimes give
+                                    <p>It&apos;s not just the welcome bonus that&apos;s available. After using the welcome bonus, you need
+                                        to keep your eyes out for the deposit bonus. That&apos;s the bonus the casinos sometimes give
                                         on a random deposit you set during your play. And if you are fortunate, it will bring
                                         big or small jackpots with it as you go.</p>
                                     <p>Just as when you set a standard deposit, you claim your bonus in the cashier when you put
                                         a crypto deposit. And remember that no one can force you into taking that bonus. The
-                                        choice is yours. It's a choice you should make after you have looked over all the terms
+                                        choice is yours. It&apos;s a choice you should make after you have looked over all the terms
                                         and conditions that come with the bonus. Remember, the wager requirements must be
                                         fulfilled before you can withdraw any of the winnings you are lucky enough to win. Also,
-                                        remember that even though there's a chance of winning a lot of money, you have to
+                                        remember that even though there&apos;s a chance of winning a lot of money, you have to
                                         remember casinos are only for entertainment.</p>
 
                                     <h2>How to choose the right Bitcoin casino</h2>
                                     <p>We all want to find the best option right away, we want to hit the jackpot on the first
-                                        spin, we all want to get it all, and we want it straight away. Unfortunately, that's not
+                                        spin, we all want to get it all, and we want it straight away. Unfortunately, that&apos;s not
                                         reality. We learn.</p>
-                                    <p>There's no secret road map to massive payouts and the perfect casino on the first spin,
+                                    <p>There&apos;s no secret road map to massive payouts and the perfect casino on the first spin,
                                         even when it comes to the crypto casino – but here are a few tips:</p>
                                     <ul>
-                                        <li>You need to look at what kind of games the casino offers if they don't have any
+                                        <li>You need to look at what kind of games the casino offers if they don&apos;t have any
                                             games you like or any games you would like to try out.</li>
-                                        <li>Suppose you have a type of cryptocurrency and not all of them or don't want to try a
+                                        <li>Suppose you have a type of cryptocurrency and not all of them or don&apos;t want to try a
                                             different one than the one you know. In that case, you have to check the payment
                                             methods to ensure that crypto casinos accept that type as a payment method on their
                                             casino.</li>
@@ -171,14 +171,14 @@ function MobileFooter() {
                                             We know that many players are only paying attention to what kind of bonus the casino
                                             has to offer to their new and old players.</li>
                                         <li>Make sure you can play – most casinos have a list of restricted countries that
-                                            cannot play in their casino. Make sure that your country isn't on the restricted
+                                            cannot play in their casino. Make sure that your country isn&apos;t on the restricted
                                             list.</li>
                                     </ul>
 
                                     <h2>Is it difficult to deposit or make a withdrawal?</h2>
-                                    <p>Many payment methods are difficult to understand, and crypto casinos' selling point is
+                                    <p>Many payment methods are difficult to understand, and crypto casinos&apos; selling point is
                                         that everything is supposed to be more accessible when using it – so is it easier?</p>
-                                    <p>Yes, it's as easy as stealing candy from a kid. There are just a few steps to make a
+                                    <p>Yes, it&apos;s as easy as stealing candy from a kid. There are just a few steps to make a
                                         deposit and just a few steps to make a withdrawal. And of course, we are here to tell
                                         you how to do just that:</p>
                                     <p>This is how you make a deposit using bitcoin or another crypto:</p>
@@ -186,7 +186,7 @@ function MobileFooter() {
                                         <li>First, you have to find your favorite casino that accepts crypto as payment options
                                             and make your way to the cashier.</li>
                                         <li>Pick if you want to use bitcoin or a different type of crypto.</li>
-                                        <li>And then all that's left is to type in how much you would like to deposit and click
+                                        <li>And then all that&apos;s left is to type in how much you would like to deposit and click
                                             enter. And within a few moments, the balance should be on your player account.</li>
                                     </ul>
                                     <p>This is how you make a withdrawal if and when you are lucky enough to win:</p>
@@ -196,7 +196,7 @@ function MobileFooter() {
                                         <li>Fill in the amount you wish to make a withdrawal of, and then press confirm</li>
                                     </ul>
                                     <p>As you can see, this is a lot easier than what it would be with many of the other payment
-                                        options you find on an online casino – but as we all know, it's not something we see all
+                                        options you find on an online casino – but as we all know, it&apos;s not something we see all
                                         over.</p>
 
                                     <h2>What games can you find in a crypto casino?</h2>
@@ -211,11 +211,11 @@ function MobileFooter() {
                                         the second. Payback is the percentage of money paid back to the player on average. Each
                                         spin on the game has the same chance of winning or losing as the previous game; it has
                                         nothing to say how long since the last jackpot was paid out or whether the slot machine
-                                        is "hot" or "cold."</p>
+                                        is &quot;hot&quot; or &quot;cold.&quot;</p>
                                     <p>In the 80s, slot machines became very popular and even surpassed table games such as
                                         craps and blackjack. Slot machines and video poker now make up more than 70 percent of
-                                        the casinos' profits. Now that we have gone online, it continues to profit from online
-                                        crypto and bitcoin casinos and the casinos that don't accept the crypto methods. This is
+                                        the casinos&apos; profits. Now that we have gone online, it continues to profit from online
+                                        crypto and bitcoin casinos and the casinos that don&apos;t accept the crypto methods. This is
                                         for a simple reason: big jackpots. When slot machines were digitized, it became possible
                                         to make the jackpot win less frequent, which also meant that the jackpot on online slot
                                         machines became larger when you first won it. And players love big jackpots! If you play
@@ -229,7 +229,7 @@ function MobileFooter() {
                                         Second, no matter what these secret odds are, they are often wrong and worse than table
                                         games such as craps, baccarat, and blackjack. Thirdly, slot machines run much faster
                                         than other games, and thus you can lose a lot of money in a short amount of time.</p>
-                                    <p>Table games are the next big thing on online casinos, so let's talk about what you can
+                                    <p>Table games are the next big thing on online casinos, so let&apos;s talk about what you can
                                         expect from this type of game and give you newbies out there a chance to quickly learn
                                         before they buy bitcoin to spend their hard-earned money on online slots and other games
                                         for a quick payout.</p>
@@ -269,7 +269,7 @@ function MobileFooter() {
                                     <p>If you have been to a casino, you know how it feels. Live casino gives you a bit of the
                                         same feeling. In some of the casinos, you have the opportunity to chat with the host
                                         along the way. It provides excitement, joy, and maybe a little frustration to play live
-                                        casino, depending on the game's result.</p>
+                                        casino, depending on the game&apos;s result.</p>
                                     <p>If you want to play live casino, you must register with one of the gaming providers that
                                         offer this. It is easy to register with a foreign gaming company, and you only fill in
                                         with information about yourself. After this, you deposit bitcoin or another form of real
@@ -286,7 +286,7 @@ function MobileFooter() {
                                         the games you can find on the casino.</p>
                                     <p>And remember to check out what kind of bonuses you can get. Not all casinos give you a
                                         deposit bonus, but they will provide you with the reload bonuses. So, you can find
-                                        reload bonuses and no deposit bonus if you don't check good enough before you start. And
+                                        reload bonuses and no deposit bonus if you don&apos;t check good enough before you start. And
                                         if you are lucky, you can find casinos that give away daily cashback.</p>
 
 
@@ -598,7 +598,7 @@ function MobileFooter() {
                             </a>
                             <p>
                                 <span>BC.GAME</span> is operated by BlockDance B.V. (Commercial register of Curaçao no.158182, Emancipatie
-                                Boulevard Dominico F. "Don" Martina 31, Curaçao) under a sublicense CIL pursuant to Master gaming License
+                                Boulevard Dominico F. &quot;Don&quot; Martina 31, Curaçao) under a sublicense CIL pursuant to Master gaming License
                                 #5536/JAZ.
                             </p>
                         </div>
