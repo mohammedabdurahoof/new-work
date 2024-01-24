@@ -40,11 +40,12 @@ import BottomBar from "./BottomBar";
 import MobileNav from "./MobileNav";
 import MobileHeader from "./MobileHeader";
 import MobileFooter from "./MobileFooter";
+import HelpSideBar from "./HelpSideBar";
 
 export {
     Header, SideBar, Footer, TopButton, Chat, Banner, Cards, Recent, TopRated, Deposit, Race, Register,
     Recommended, Slider, Search, Tab, Providers, SportsHeader, Navbar, Card, ProgressBar, LoadMore,
     Loading, Dashboard, SlipBox, LotteryBanner, LotterySearch, DrawCard, PopularCard, RecentWinners,
     TopWinning, LatestResultsTable, LotteryTab, Login, BottomBar, MobileNav, MobileHeader, SportsNavbar,
-    SportsNavigation, MobileFooter,MobileSteps ,PcSteps
+    SportsNavigation, MobileFooter, MobileSteps, PcSteps, HelpSideBar
 }
