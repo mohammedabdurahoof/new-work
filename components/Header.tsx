@@ -3,15 +3,16 @@
 // Import React and next/navigation library
 import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
-interface Props{
-    setOpen : React.Dispatch<React.SetStateAction<boolean>>;
+import Link from 'next/link';
+interface Props {
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 // Header component
-function Header({setOpen}:Props) {
+function Header({ setOpen }: Props) {
     // Use usePathname to get the current pathname
     const pathname = usePathname();
 
-    
+
 
     return (
         <div className="pg3er1y" id="header">
@@ -20,14 +21,16 @@ function Header({setOpen}:Props) {
                     <div className="pdjiuoz left">
                         <div className="cfzn5qq">
                             {/* Casino Link */}
-                            <a href="/casino" keep-scroll-position="true" className={`header-link-item casino ${pathname == "/casino" ? "active is-active" : ""}`}>
-                                <div className="img-wrap">
-                                    <svg className="s1ff97qc icon">
-                                        <use xlinkHref='/images/symbol-defs.ef6a79c4.svg#icon_Casino'></use>
-                                    </svg>
-                                </div>
-                                <p>Casino</p>
-                            </a>
+                            <Link href={"/casino"}>
+                                <a href="/casino" keep-scroll-position="true" className={`header-link-item casino ${pathname == "/casino" ? "active is-active" : ""}`}>
+                                    <div className="img-wrap">
+                                        <svg className="s1ff97qc icon">
+                                            <use xlinkHref='/images/symbol-defs.ef6a79c4.svg#icon_Casino'></use>
+                                        </svg>
+                                    </div>
+                                    <p>Casino</p>
+                                </a>
+                            </Link>
                             {/* Sports Link */}
                             <a href="/sports" keep-scroll-position="true" className={`header-link-item sports ${pathname == "/sports" ? "active is-active" : ""}`}>
                                 <div className="img-wrap">
@@ -66,9 +69,9 @@ function Header({setOpen}:Props) {
                                 </svg>
                             </button>
                         </div>
-                        <p className="sign-in" onClick={()=>setOpen(true)}>Sign in</p>
+                        <p className="sign-in" onClick={() => setOpen(true)}>Sign in</p>
                         <div className="sign-up-wrap">
-                            <button className="ui-button button-normal s-conic" onClick={()=>setOpen(true)}>
+                            <button className="ui-button button-normal s-conic" onClick={() => setOpen(true)}>
                                 <div className="button-inner">Sign up</div>
                             </button>
                         </div>

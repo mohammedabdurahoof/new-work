@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import FoldNav from './FoldNav';
 import UnFoldNav from './UnFoldNav';
+import ModeBaisedImage from './ModeBaisedImage';
 
 interface Props {
     open: boolean;
@@ -19,8 +20,11 @@ function SideBar({ open, setOpen }: Props) {
                         <svg className="s1ff97qc icon">
                             <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Tighten"></use>
                         </svg></button>
-                    {open && <a href="/" keep-scroll-position="true" className="logo-pc is-active"><img alt="logo"
-                        className="logo-com" src="/images/logo.33451179.png" /></a>}
+                    {open && <a href="/" keep-scroll-position="true" className="logo-pc is-active">
+                        {/* <img alt="logo"
+                        className="logo-com" src="/images/logo.33451179.png" /> */}
+                        <ModeBaisedImage className='logo-com' darkImage='/images/logo.33451179.png' lightImage='/images/logo_w.png' />
+                        </a>}
                 </div>
             </div>
             <div className="pc-sidebar-inner">

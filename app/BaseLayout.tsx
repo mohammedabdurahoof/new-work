@@ -7,6 +7,7 @@ import '../styles/index-7df30de5.css'
 import '../styles/signin-8fa3fd7d.css'
 import '../styles/index.bfcb7d91.css'
 import { useMediaQuery } from 'react-responsive'
+import { useAppSelector } from './GlobalRedux/store'
 
 
 
@@ -22,31 +23,35 @@ function BaseLayout({ children }: Props) {
     const isDesktop = useMediaQuery({ minWidth: 1024 });
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
     const isMobile = useMediaQuery({ maxWidth: 767 });
+    const mode = useAppSelector(state => state.modeReducer.mode)
 
 
     return (
-        <div id="root" className={`base-layout ${isMobile ? "mb-show-header g3" : open ? "side-unfold  g7" : "side-fold  g6"} `}>
-            <div className="s1u0fsnz"></div>
-            <Login open={lOpen} setOpen={setLOpen} isMobile={isMobile} />
-            {isMobile ?
-                <>
-                    <MobileHeader setOpen={setLOpen} />
-                    <MobileNav open={nOpen} />
-                    <BottomBar open={nOpen} setOpen={setNOpen} />
-                </>
-                :
-                <>
-                    <Header setOpen={setLOpen} />
-                    <SideBar open={open} setOpen={setOpen} />
-                </>}
+        <body className={mode == "light" ? '' : 'darken'}>
 
-            {children}
-            {
-                isMobile ? <MobileFooter /> : <Footer />
-            }
-            {isMobile ? '' : <Chat />}
-            <TopButton />
-        </div>
+            <div id="root" className={`base-layout ${isMobile ? "mb-show-header g3" : open ? "side-unfold  g7" : "side-fold  g6"} `}>
+                <div className="s1u0fsnz"></div>
+                <Login open={lOpen} setOpen={setLOpen} isMobile={isMobile} />
+                {isMobile ?
+                    <>
+                        <MobileHeader setOpen={setLOpen} />
+                        <MobileNav open={nOpen} />
+                        <BottomBar open={nOpen} setOpen={setNOpen} />
+                    </>
+                    :
+                    <>
+                        <Header setOpen={setLOpen} />
+                        <SideBar open={open} setOpen={setOpen} />
+                    </>}
+
+                {children}
+                {
+                    isMobile ? <MobileFooter /> : <Footer />
+                }
+                {isMobile ? '' : <Chat />}
+                <TopButton />
+            </div>
+        </body>
     )
 }
 

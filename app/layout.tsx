@@ -13,6 +13,8 @@ import '../styles/index.page.2750914e.css'
 import '../styles/style.css'
 
 import BaseLayout from './BaseLayout'
+import { ReduxProvider } from './GlobalRedux/Provider'
+import { useAppSelector } from './GlobalRedux/store'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,13 +31,14 @@ export default function RootLayout({
 
 
 
+
   return (
     <html lang="en">
-      <body className='darken'>
+      <ReduxProvider>
         <BaseLayout>
           {children}
         </BaseLayout>
-      </body>
+      </ReduxProvider>
     </html>
   )
 }

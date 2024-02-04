@@ -1,6 +1,9 @@
-// components/FoldNavLinks.tsx
+"use client"
 
 import React, { ReactNode, useState } from 'react';
+import { changeMode } from "@/app/GlobalRedux/features/mode-slice";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, useAppSelector } from '@/app/GlobalRedux/store';
 
 interface UnFoldNavLinkProps {
     href: string;
@@ -107,6 +110,9 @@ function UnFoldNav() {
     const [sports, setSports] = useState(false)
     const [exclusive, setExclusive] = useState(false)
     const [sponsorship, setSponsorship] = useState(false)
+
+    const dispatch = useDispatch<AppDispatch>()
+    const mode = useAppSelector(state=>state.modeReducer.mode)
 
     return (
         <div className="u1hrvna7 hidden-scroll-y unfold-scroll-wrap">
@@ -289,13 +295,13 @@ function UnFoldNav() {
             <div className="theme-nav">
                 <div className="tftnvkv theme-wrap">
                     <div className="theme-inner">
-                        <button className="active">
+                        <button className={mode == "dark" ?"active":""} onClick={() => dispatch(changeMode("dark"))}>
                             <svg className="s1ff97qc icon">
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Dark"></use>
                             </svg>
                             <span>Dark</span>
                         </button>
-                        <button className="">
+                        <button className={mode == "light" ?"active":""}  onClick={() => dispatch(changeMode("light"))}>
                             <svg className="s1ff97qc icon">
                                 <use xlinkHref="/images/symbol-defs.ef6a79c4.svg#icon_Light"></use>
                             </svg>
